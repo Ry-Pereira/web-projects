@@ -1,0 +1,61 @@
+/*Name: Ryan Pereira */
+/*Project Name: Learn Colors in Japanese */
+/*Description:  This is a css file that styles the Learn Colors in Japanese page */
+/*Collaborators: None */
+/*Sources: Github Copilot, Stack Overflow, ChatGPT, CSS documentation */
+/*Date: 4/2/2026 */
+/*Last Modified: 4/2/2026 */
+
+/* CSS Document */
+
+/*Selecting the id that has value red */
+
+    #red{
+        /*Setting the font color to be red */
+    color:red;
+}
+/*Selecting the id that has value orange */
+#orange{
+    /*Setting the font color to be orange */
+    color:orange;
+}
+/*Selecting the id that has value yellow */
+#yellow{
+    /*Setting the font color to be yellow */
+    color:yellow;
+}
+
+/*Selecting the id that has value green */
+#green{
+    /*Setting the font color to be green */
+    color:green;
+}
+
+/*Selecting the id that has value cyan */
+#blue{
+    /*Setting the font color to be blue */
+    color:blue;
+}
+
+/*Selecting the class that has value images */
+.images{
+    /*Setting the width of the image to of the width approx value 260px and height to be 260px */
+    width:260px;
+    height:260px;
+}
+
+/*Selecting all the elements in the document*/
+*{
+    /*Setting padding on top to be 10px*/
+    padding-top:10px;
+}
+
+
+/*Selecting all the h2 elements that are draggable*/
+h2[draggable]{
+    /*Setting the font size to be 30px and the font family to be Times New Roman, Times, serif */
+    font-size:30px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
