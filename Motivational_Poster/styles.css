@@ -1,0 +1,36 @@
+body{
+    background-color:black;
+}
+
+img{
+    width:90%;
+    height:20%;
+    border: 8px ridge #6EACDA;
+   
+
+
+
+}
+#container{
+    border: 8px ridge #6EACDA;
+}
+
+
+
+h1{
+    color: #03346E;
+    font-size:50px;
+    text-align: center;
+    font-family: 'Playfairre Display', sans-serif;
+}
+
+h2{
+    color:white;
+    font-size:16px;
+    text-align: center;
+    font-family: 'Stack Sans Notch', sans-serif;
+}
+
+div{
+    padding:100px;
+}
