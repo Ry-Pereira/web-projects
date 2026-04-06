@@ -1,12 +1,34 @@
+/*Name: Ryan Pereira */
+/*Project Name: Motivational Poster */
+/*Description: This is a simple CSS file for styling the motivational poster */
+/*Collaborators: None */
+/*Sources: Github Copilot, Stack Overflow, ChatGPT, HTML documentation */
+/*Date: 4/5/2026 */
+/*Last Modified: 4/5/2026 */
+
+
+
+/* Styles for the body of the web page */
+
+
+/*Style selector for the body element */
 body{
+    /* Set the background color of the web page to black */
     background-color:black;
 }
 
+
+/*Style selector for the image element */
 img{
+    /* Setting the width to 80% */
     width:80%;
+    /* Setting the height to 500 pixels */
     height:500px;
+    /* Adding a border with a ridge style and a specific color */
     border: 8px ridge #6EACDA;
+    /* Setting the display property to block and centering the image horizontally */
     display:block;
+    /* Setting the margin to auto to center the image horizontally */
     margin: 0 auto;
    
 
@@ -14,27 +36,44 @@ img{
 
 }
 
+
+/*Style selector for element containing the id named container */
 #container{
+    /* Adding padding of 100 pixels to create space around the content */
     padding:100px;
 }
 
 
 
-
+/*Style selector for the h1 element */
 h1{
+    /* Setting the text color to a specific shade of blue */
     color: #03346E;
+    /* Setting the font size to 50 pixels */
     font-size:50px;
+    /* Centering the text horizontally */
     text-align: center;
+    /* Setting the font family to a combination of serif fonts for a classic look */
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
+/*Style selector for the h2 element */
 h2{
+    /* Setting the text color to white */
     color:white;
+    /* Setting the font size to 18 pixels */
     font-size:18px;
+    /* Centering the text horizontally */
     text-align: center;
+    /* Setting the font family to a combination of serif fonts for a classic look */
     font-family: 'Times New Roman', Times, serif;
 }
 
+
+
+/*Style selector for the div element */
 div{
+    /* Adding padding of 100 pixels to create space around the content */
     padding:100px;
 }
