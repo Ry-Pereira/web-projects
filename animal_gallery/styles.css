@@ -1,5 +1,8 @@
 
-
+body{
+    background-image: url("images/nature_background.jpg");
+    background-size:cover;
+}
 h1{
     text-align: center;
 }
@@ -20,8 +23,6 @@ h1{
 .animal_image {
     height:200px;
     width:300px;
-    display:flex;
-    justify-content:center;
     margin: 0 auto;
 
 }
@@ -31,9 +32,22 @@ h1{
     background-size:cover;
 }
 
+
+#alligator_image:hover{
+    background-image: url("images/alligator_gif.gif");
+    background-size:cover;
+}
+
+
 #bear_image{
     background-image: url("images/bear_still.jpg");
     background-size:cover;
+}
+
+#bear_iamge:hover{
+    background-image: url("images/bear_gif.jpg");
+    background-size:cover;
+
 }
 
 #cat_image{
@@ -90,4 +104,10 @@ h1{
 #monkey_image{
     background-image: url("images/monkey_still.jpg");
     background-size:cover;
+}
+
+h3{
+    color:white;
+    font-size: 30px;;
+    background-color: blue;
 }
