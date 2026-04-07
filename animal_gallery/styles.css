@@ -1,0 +1,13 @@
+
+
+.animal_image {
+    background-color: red;
+    height:200px;
+    width:300px;
+
+}
+
+#alligator_image{
+    background-image: url("images/alligator_still.jpg");
+    background-size:cover;
+}
