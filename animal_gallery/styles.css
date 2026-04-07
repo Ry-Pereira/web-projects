@@ -1,9 +1,28 @@
 
 
+h1{
+    text-align: center;
+}
+
+
+
+.animal_gallery_image_container{
+    display:inline-block;
+    margin:30px;
+    text-align:center;
+    background-color:teal;
+    height: 300px;
+    width:400px;
+}
+
+
+
 .animal_image {
-  
     height:200px;
     width:300px;
+    display:flex;
+    justify-content:center;
+    margin: 0 auto;
 
 }
 
