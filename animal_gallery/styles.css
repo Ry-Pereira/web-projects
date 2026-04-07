@@ -1,7 +1,7 @@
 
 
 .animal_image {
-    background-color: red;
+  
     height:200px;
     width:300px;
 
@@ -9,5 +9,66 @@
 
 #alligator_image{
     background-image: url("images/alligator_still.jpg");
+    background-size:cover;
+}
+
+#bear_image{
+    background-image: url("images/bear_still.jpg");
+    background-size:cover;
+}
+
+#cat_image{
+    background-image: url("images/cat_still.jpg");
+    background-size:cover;
+}
+
+#dog_image{
+    background-image: url("images/dog_still.jpg");
+    background-size:cover;
+}
+
+#elephant_image{
+    background-image: url("images/elephant_still.jpg");
+    background-size:cover;
+}
+
+#fox_image{
+    background-image: url("images/fox_still.jpg");
+    background-size:cover;
+}
+
+#giraffe_image{
+    background-image: url("images/giraffe_still.jpg");
+    background-size:cover;
+}
+
+#horse_image{
+    background-image: url("images/horse_still.jpg");
+    background-size:cover;
+}
+
+#iguana_image{
+    background-image: url("images/iguana_still.jpg");
+    background-size:cover;
+}
+
+#jaguar_image{
+    background-image: url("images/jaguar_still.jpg");
+    background-size:cover;
+}
+
+#kangaroo_image{
+    background-image: url("images/kangaroo_still.jpg");
+    background-size:cover;
+}
+
+
+#lion_image{
+    background-image: url("images/lion_still.jpg");
+    background-size:cover;
+}
+
+#monkey_image{
+    background-image: url("images/monkey_still.jpg");
     background-size:cover;
 }
