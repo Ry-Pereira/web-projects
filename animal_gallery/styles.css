@@ -2,6 +2,7 @@
 body{
     background-image: url("images/backgrounds/nature_background.jpg");
     background-size:cover;
+    border: 8px solid black;
 }
 h1{
     text-align: center;
@@ -16,6 +17,8 @@ h1{
     background-color:teal;
     height: 300px;
     width:350px;
+    opacity: 0.8;
+    border: 5px dotted black;
 }
 
 
