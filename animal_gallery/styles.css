@@ -15,14 +15,16 @@ h1{
     text-align:center;
     background-color:teal;
     height: 300px;
-    width:400px;
+    width:350px;
 }
 
 
 
 .animal_image {
     height:200px;
-    width:300px;
+    width:250px;
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
 
 }
@@ -44,8 +46,8 @@ h1{
     background-size:cover;
 }
 
-#bear_iamge:hover{
-    background-image: url("images/moving/bear_moving_2.gif");
+#bear_image:hover{
+    background-image: url("images/moving/bear_moving.gif");
     background-size:cover;
 
 }
@@ -55,13 +57,29 @@ h1{
     background-size:cover;
 }
 
+#cat_image:hover{
+    background-image: url("images/moving/blackcat_moving.gif");
+    background-size:cover;
+}
+
 #dog_image{
     background-image: url("images/still/dog_still.jpg");
     background-size:cover;
 }
 
+#dog_image:hover{
+    background-image: url("images/moving/dog_moving.gif");
+    background-size:cover;
+}
+
+
 #elephant_image{
     background-image: url("images/still/elephant_still.jpg");
+    background-size:cover;
+}
+
+#elephant_image:hover{
+    background-image: url("images/moving/elephant_moving.gif");
     background-size:cover;
 }
 
@@ -70,8 +88,18 @@ h1{
     background-size:cover;
 }
 
+#fox_image:hover{
+    background-image: url("images/moving/fox_moving.gif");
+    background-size:cover;
+}
+
 #giraffe_image{
     background-image: url("images/still/giraffe_still.jpg");
+    background-size:cover;
+}
+
+#giraffe_image:hover{
+    background-image: url("images/moving/giraffe_moving.gif");
     background-size:cover;
 }
 
@@ -80,8 +108,18 @@ h1{
     background-size:cover;
 }
 
+#horse_image:hover{
+    background-image: url("images/moving/horse_moving.gif");
+    background-size:cover;
+}
+
 #iguana_image{
     background-image: url("images/still/iguana_still.jpg");
+    background-size:cover;
+}
+
+#iguana_image:hover{
+    background-image: url("images/moving/iguana_moving.gif");
     background-size:cover;
 }
 
@@ -90,8 +128,18 @@ h1{
     background-size:cover;
 }
 
+#jaguar_image:hover{
+    background-image: url("images/moving/jaguar_moving.gif");
+    background-size:cover;
+}
+
 #kangaroo_image{
     background-image: url("images/still/kangaroo_still.jpg");
+    background-size:cover;
+}
+
+#kangaroo_image:hover{
+    background-image: url("images/moving/kangaroo_moving.gif");
     background-size:cover;
 }
 
@@ -101,13 +149,8 @@ h1{
     background-size:cover;
 }
 
-#monkey_image{
-    background-image: url("images/stillmonkey_still.jpg");
+#lion_image:hover{
+    background-image: url("images/moving/lion_moving.gif");
     background-size:cover;
 }
 
-h3{
-    color:white;
-    font-size: 30px;;
-    background-color: blue;
-}
