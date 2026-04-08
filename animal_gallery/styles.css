@@ -1,6 +1,6 @@
 
 body{
-    background-image: url("images/nature_background.jpg");
+    background-image: url("images/backgrounds/nature_background.jpg");
     background-size:cover;
 }
 h1{
@@ -28,81 +28,81 @@ h1{
 }
 
 #alligator_image{
-    background-image: url("images/alligator_still.jpg");
+    background-image: url("images/still/alligator_still.jpg");
     background-size:cover;
 }
 
 
 #alligator_image:hover{
-    background-image: url("images/alligator_gif.gif");
+    background-image: url("images/moving/alligator_gif.gif");
     background-size:cover;
 }
 
 
 #bear_image{
-    background-image: url("images/bear_still.jpg");
+    background-image: url("images/still/bear_still.jpg");
     background-size:cover;
 }
 
 #bear_iamge:hover{
-    background-image: url("images/bear_gif.jpg");
+    background-image: url("images/moving/bear_moving_2.gif");
     background-size:cover;
 
 }
 
 #cat_image{
-    background-image: url("images/cat_still.jpg");
+    background-image: url("images/still/cat_still.jpg");
     background-size:cover;
 }
 
 #dog_image{
-    background-image: url("images/dog_still.jpg");
+    background-image: url("images/still/dog_still.jpg");
     background-size:cover;
 }
 
 #elephant_image{
-    background-image: url("images/elephant_still.jpg");
+    background-image: url("images/still/elephant_still.jpg");
     background-size:cover;
 }
 
 #fox_image{
-    background-image: url("images/fox_still.jpg");
+    background-image: url("images/still/fox_still.jpg");
     background-size:cover;
 }
 
 #giraffe_image{
-    background-image: url("images/giraffe_still.jpg");
+    background-image: url("images/still/giraffe_still.jpg");
     background-size:cover;
 }
 
 #horse_image{
-    background-image: url("images/horse_still.jpg");
+    background-image: url("images/still/horse_still.jpg");
     background-size:cover;
 }
 
 #iguana_image{
-    background-image: url("images/iguana_still.jpg");
+    background-image: url("images/still/iguana_still.jpg");
     background-size:cover;
 }
 
 #jaguar_image{
-    background-image: url("images/jaguar_still.jpg");
+    background-image: url("images/still/jaguar_still.jpg");
     background-size:cover;
 }
 
 #kangaroo_image{
-    background-image: url("images/kangaroo_still.jpg");
+    background-image: url("images/still/kangaroo_still.jpg");
     background-size:cover;
 }
 
 
 #lion_image{
-    background-image: url("images/lion_still.jpg");
+    background-image: url("images/still/lion_still.jpg");
     background-size:cover;
 }
 
 #monkey_image{
-    background-image: url("images/monkey_still.jpg");
+    background-image: url("images/stillmonkey_still.jpg");
     background-size:cover;
 }
 
