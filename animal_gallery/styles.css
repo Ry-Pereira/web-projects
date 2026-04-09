@@ -1,20 +1,40 @@
+/** Name: Ryan Pereira **/
+/**Project Name: Animal Gallery **/
+/**Description: This is a simple CSS file for the Animal Gallery page. **/
+/**Collaborators: None **/
+/**Sources: Github Copilot, Stack Overflow, ChatGPT, HTML documentation **/
+/**Date: 4/7/2026 **/
+/**Last Modified: 4/8/2026 **/
 
+
+
+/* Styles for the body of the page, including a background image, background size, and border */
 body{
+    /* Set the background image to a nature background and make it cover the entire page */
     background-image: url("images/backgrounds/nature_background.jpg");
     background-size:cover;
+    /* Add a border around the entire page */
     border: 8px solid black;
 }
-h1{
+
+
+
+/* Styles for the heading of the page, including text alignment */
+h1[draggable="true"]{
+    /* Center the text of the heading */
     text-align: center;
 }
 
 
-
+/* Styles for the animal gallery container, including display, flex direction, and alignment */
 .animal_gallery_image_container{
+    /* Set the display to flex and the flex direction to row, allowing the images to be displayed in a row */
     display:inline-block;
     margin:30px;
     text-align:center;
+    /* Justify the content to the center, centering the images within the container */
     background-color:teal;
+    /* Set the height and width of the container, and add some opacity and a border */
     height: 300px;
     width:350px;
     opacity: 0.8;
@@ -22,8 +42,9 @@ h1{
 }
 
 
-
+/* Styles for the animal images, including height, width, display, and alignment */
 .animal_image {
+    /* Set the height and width of the animal images, and display them as flex items with centered content */
     height:200px;
     width:250px;
     display: flex;
@@ -32,126 +53,157 @@ h1{
 
 }
 
+
+/* Styles for the alligator image, including background image and size */
 #alligator_image{
     background-image: url("images/still/alligator_still.jpg");
     background-size:cover;
 }
 
-
+/* Styles for the alligator image when hovered, including background image and size */
 #alligator_image:hover{
     background-image: url("images/moving/alligator_gif.gif");
     background-size:cover;
 }
 
 
+/* Styles for the bear image, including background image and size */
 #bear_image{
     background-image: url("images/still/bear_still.jpg");
     background-size:cover;
 }
 
+
+/* Styles for the bear image when hovered, including background image and size */
 #bear_image:hover{
     background-image: url("images/moving/bear_moving.gif");
     background-size:cover;
 
 }
-
+/* Styles for the cat image, including background image and size */
 #cat_image{
     background-image: url("images/still/cat_still.jpg");
     background-size:cover;
 }
 
+/* Styles for the cat image when hovered, including background image and size */
 #cat_image:hover{
     background-image: url("images/moving/blackcat_moving.gif");
     background-size:cover;
 }
 
+/* Styles for the dog image, including background image and size */
 #dog_image{
     background-image: url("images/still/dog_still.jpg");
     background-size:cover;
 }
 
+/* Styles for the dog image when hovered, including background image and size */
 #dog_image:hover{
     background-image: url("images/moving/dog_moving.gif");
     background-size:cover;
 }
 
-
+/* Styles for the elephant image, including background image and size */
 #elephant_image{
     background-image: url("images/still/elephant_still.jpg");
     background-size:cover;
 }
 
+/* Styles for the elephant image when hovered, including background image and size */
 #elephant_image:hover{
     background-image: url("images/moving/elephant_moving.gif");
     background-size:cover;
 }
 
+
+/* Styles for the fox image, including background image and size */
 #fox_image{
     background-image: url("images/still/fox_still.jpg");
     background-size:cover;
 }
 
+/* Styles for the fox image when hovered, including background image and size */
 #fox_image:hover{
     background-image: url("images/moving/fox_moving.gif");
     background-size:cover;
 }
 
+/* Styles for the giraffe image, including background image and size */
 #giraffe_image{
     background-image: url("images/still/giraffe_still.jpg");
     background-size:cover;
 }
 
+/* Styles for the giraffe image when hovered, including background image and size */
 #giraffe_image:hover{
     background-image: url("images/moving/giraffe_moving.gif");
     background-size:cover;
 }
 
+
+/* Styles for the horse image, including background image and size */
 #horse_image{
     background-image: url("images/still/horse_still.jpg");
     background-size:cover;
 }
 
+/* Styles for the horse image when hovered, including background image and size */
 #horse_image:hover{
     background-image: url("images/moving/horse_moving.gif");
     background-size:cover;
 }
 
+
+/* Styles for the iguana image, including background image and size */
 #iguana_image{
     background-image: url("images/still/iguana_still.jpg");
     background-size:cover;
 }
 
+
+/* Styles for the iguana image when hovered, including background image and size */
 #iguana_image:hover{
     background-image: url("images/moving/iguana_moving.gif");
     background-size:cover;
 }
 
+/* Styles for the jaguar image, including background image and size */
 #jaguar_image{
     background-image: url("images/still/jaguar_still.jpg");
     background-size:cover;
 }
 
+
+/* Styles for the jaguar image when hovered, including background image and size */
 #jaguar_image:hover{
     background-image: url("images/moving/jaguar_moving.gif");
     background-size:cover;
 }
 
+
+/* Styles for the kangaroo image, including background image and size */
 #kangaroo_image{
     background-image: url("images/still/kangaroo_still.jpg");
     background-size:cover;
 }
 
+
+/* Styles for the kangaroo image when hovered, including background image and size */
 #kangaroo_image:hover{
     background-image: url("images/moving/kangaroo_moving.gif");
     background-size:cover;
 }
 
 
+/* Styles for the lion image, including background image and size */
 #lion_image{
     background-image: url("images/still/lion_still.jpg");
     background-size:cover;
 }
 
+
+/* Styles for the lion image when hovered, including background image and size */
 #lion_image:hover{
     background-image: url("images/moving/lion_moving.gif");
     background-size:cover;
