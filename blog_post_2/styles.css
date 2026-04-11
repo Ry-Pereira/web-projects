@@ -5,3 +5,49 @@
 /*Sources: Github Copilot, Stack Overflow, ChatGPT, HTML documentation */
 /*Date: 4/10/2026 */
 /*Last Modified: 4/10/2026 */
+
+
+#top_section{
+    background-color: red;
+    text-align: center;
+}
+
+body{
+    background-color: #F3E3D0;
+}
+
+img{
+    width:100%;
+}
+
+div:hover{
+    background-color: #D2C4B4;
+    
+}
+
+
+h1,h2{
+    color:#81A6C6;
+}
+
+h1{
+    font-size: 36px;
+
+}
+
+h2{
+    font-size: 28px;
+
+}
+
+p{
+    color:#AACDDC;
+    font-size: 18px;
+
+}
+
+
+*{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
