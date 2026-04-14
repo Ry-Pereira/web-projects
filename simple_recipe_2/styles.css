@@ -1,3 +1,18 @@
+/*Name: Ryan Pereira */
+/*Project Name: Simple Recipe 2 */
+/*Description: This is a simple cSSL page for styling of the simple recipe. */
+/*Collaborators: None */
+/*Sources: Github Copilot, Stack Overflow, ChatGPT, HTML documentation */
+/*Date: 4/14/2026*/
+/*Last Modified: 4/14/2026*/
+
+
+
+
+
+
+
+
 body{
     background-color: #FFDAB3;
 }
@@ -7,22 +22,31 @@ body{
 img{
     width:500px;
     height:500px;
-    border:10px da black;
+    border:5px dashed black;
+    
 }
 
 
 
 
-h1,h2{
+h2{
     color:#574964;
+    text-align:center;
 }
 
 
 li{
-    color:#9F8383
+    color:#9F8383;
+
 }
 
 
 *{
     padding-top:5px;
+}
+
+#top_section{
+    display:flex;
+    flex-direction: column;
+    margin:  auto;
 }
