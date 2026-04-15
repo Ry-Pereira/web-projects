@@ -45,6 +45,7 @@ li{
 /*Specifying css properties for universal selector*/
 *{
     padding-top:5px;
+    font-family: "EB Garamond", serif;
 }
 
 /*Specifying css properties for heading 1 element*/
