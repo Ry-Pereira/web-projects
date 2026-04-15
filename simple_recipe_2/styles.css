@@ -23,6 +23,8 @@ img{
     width:500px;
     height:500px;
     border:5px dashed black;
+    display:block;
+    margin:0 auto;
     
 }
 
@@ -46,7 +48,7 @@ li{
 }
 
 #top_section{
-    display:flex;
-    flex-direction: column;
-    margin:  auto;
+    text-align:center;
+    display:block;
+    text-align:center;
 }
