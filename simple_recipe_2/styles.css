@@ -3,8 +3,8 @@
 /*Description: This is a simple cSSL page for styling of the simple recipe. */
 /*Collaborators: None */
 /*Sources: Github Copilot, Stack Overflow, ChatGPT, HTML documentation */
-/*Date: 4/14/2026*/
-/*Last Modified: 4/14/2026*/
+/*Date: 4/15/2026*/
+/*Last Modified: 4/15/2026*/
 
 
 
@@ -12,13 +12,13 @@
 
 
 
-
+/*Specifying css properties for body element*/
 body{
     background-color: #FFDAB3;
 }
 
 
-
+/*Specifying css properties for img element*/
 img{
     width:500px;
     height:500px;
@@ -30,25 +30,24 @@ img{
 
 
 
-
+/*Specifying css properties for heading 2 element*/
 h2{
     color:#574964;
     text-align:center;
 }
 
-
+/*Specifying css properties for list element*/
 li{
     color:#9F8383;
 
 }
 
-
+/*Specifying css properties for universal selector*/
 *{
     padding-top:5px;
 }
 
-#top_section{
-    text-align:center;
-    display:block;
+/*Specifying css properties for heading 1 element*/
+h1{
     text-align:center;
 }
