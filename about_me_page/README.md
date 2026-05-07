@@ -1,75 +1,92 @@
-# 🎲 Dice Roll Program
+# 👤 About Me Page
 
 ## 📌 Overview
 
-This project is a JavaScript-based Dice Roll simulator that mimics rolling a six-sided die. The program prompts the user to decide whether they want to roll the dice and returns a random number between 1 and 6.
-
-The program continues running until the user chooses to stop.
+This project is a simple HTML-based About Me webpage that introduces the author, highlights personal skills, and displays a calming rainy field GIF image. The page is designed to be clean, beginner-friendly, and responsive.
 
 Users can:
-* Choose to roll a dice  
-* Receive a random number between 1 and 6  
-* Roll the dice multiple times  
-* Exit the program when desired  
+- View basic personal information
+- Read a short description
+- See a list of skills
+- View a calming animated image
+- Access the original image source link
 
 ---
 
 ## 🧱 Project Structure
 
-project-folder/  
-│  
-├── dice_roll.js   # Main program file (logic + user interaction)  
-└── README.md      # Project documentation  
+```text
+project-folder/
+│
+├── about_me_page.html      # Main HTML webpage
+├── images/
+│   └── rainy_day.gif       # Animated rainy field GIF
+└── README.md               # Project documentation
+```
 
 ---
 
 ## 🚀 Features
 
-* Simulates rolling a six-sided dice  
-* Generates random numbers between 1 and 6  
-* Interactive user input with a loop (Y/N prompt)  
-* Runs continuously until the user exits  
-* Simple and easy-to-follow logic  
+- Simple and responsive HTML webpage
+- Organized content with headings and lists
+- Displays an animated rainy field GIF
+- Beginner-friendly structure and code comments
+- External link to image source
 
 ---
 
 ## 🛠️ Technologies Used
 
-* JavaScript  
-* Console input/output (prompt + console.log)  
-* Node.js or browser environment (with prompt support)  
+- HTML5
+- Basic webpage structure elements
+- Images and hyperlinks
 
 ---
 
-## 📡 Program Logic
+## 📡 Program Purpose
 
-The program works by:
+This project is designed to:
 
-1. Generating a random number using `Math.random()`  
-2. Converting the value into a range between 1 and 6  
-3. Prompting the user to continue or stop  
-4. Repeating the process until the user enters "N"  
+1. Introduce the author  
+2. Showcase basic HTML skills  
+3. Demonstrate webpage structure and formatting  
+4. Display images and links within a webpage  
+5. Create a clean and calming user experience  
 
 ---
 
 ## ▶️ How to Run the Project
 
-1. Ensure you have a JavaScript runtime (like Node.js or a browser environment with `prompt`)  
-
-2. Run the program:
+1. Download or clone the repository:
    ```bash
-   node dice_roll.js
-Enter:
-Y to roll the dice
-N to stop the program
-View the results in the console
+   git clone <your-repository-url>
+   ```
+
+2. Open the project folder.
+
+3. Run the webpage by opening:
+   ```text
+   about_me_page.html
+   ```
+
+4. View the webpage in your browser.
+
+---
+
+## 📂 Project Contents
+
+- `about_me_page.html` — Main webpage file  
+- `images/rainy_day.gif` — Animated rainy field image  
+- `README.md` — Project documentation  
 
 ---
 
 ## 📅 Project Info
-Author: Ryan Pereira
-Created: 4/18/2026
-Last Modified: 4/18/2026
+
+**Author:** Ryan Pereira  
+**Created:** 4/1/2026  
+**Last Modified:** 4/1/2026  
 
 ---
 
