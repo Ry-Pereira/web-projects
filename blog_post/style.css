@@ -1,3 +1,13 @@
+/*Name: Ryan Pereira */
+/*Project Name: Blog Post: Night Sky */
+/*Description: This is a CSS file that styles a blog webpage about the night sky */
+/*Collaborators: None */
+/*Sources: Github Copilot, Stack Overflow, ChatGPT, HTML documentation */
+/*Date: 5/8/2026 */
+/*Last Modified: 5/8/2026 */
+
+
+/* Setting the background color, centering text, and setting page width */
 body{
     background-color: #EFECE3;
     text-align:center;
@@ -5,17 +15,19 @@ body{
     width:900px;
 }
 
+/* Styling the main night sky image size */
 #night_sky_image{
     width:800px;
     height:500px;
-
 }
 
+/* Styling horizontal line separators */
 hr{
     border: 3px solid #8FABD4;
     width:100%;
 }
 
+/* Styling all h1 headings (main titles) */
 h1{
     color:#4A70A9;
     font-family:'Courier New', Courier, monospace;
@@ -24,12 +36,14 @@ h1{
     margin-top:auto;
     display:inline-block;
     float:left;
-    
 }
 
+/* Aligning the second title to the right */
 #night_sky_title{
     float:right;
 }
+
+/* Styling all paragraph text globally */
 p{
     font-family:'Courier New', Courier, monospace;
     font-size: 30px;
@@ -38,6 +52,7 @@ p{
     margin-bottom:auto;
 }
 
+/* Styling h2 subtitle (author section) */
 h2{
     color:#4A70A9;
     font-family:'Courier New', Courier, monospace;
@@ -45,9 +60,9 @@ h2{
     text-align:left;
     margin-left: 43px;
     margin-bottom: 20px;
-
 }
 
+/* Styling main blog paragraphs with ID "para" */
 #para{
     text-align: left;
     margin-left: 40px;
@@ -57,15 +72,19 @@ h2{
     margin-bottom: 20px;
 }
 
+/* Styling all images (borders and spacing) */
 img{
     margin-top:20px;
     border: 5px solid #8FABD4;
 }
 
+/* Hover effect for blog paragraphs */
 #para:hover{
     color:#FAEB92;
     background-color:#9929EA;
 }
+
+/* Styling the title paragraph under the image */
 #title{
     margin-top:20px;
 }
