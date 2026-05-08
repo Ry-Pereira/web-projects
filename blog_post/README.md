@@ -1,75 +1,94 @@
-# 🎲 Dice Roll Program
+# 🌙🌌✨ Blog Post: Night Sky
 
 ## 📌 Overview
 
-This project is a JavaScript-based Dice Roll simulator that mimics rolling a six-sided die. The program prompts the user to decide whether they want to roll the dice and returns a random number between 1 and 6.
-
-The program continues running until the user chooses to stop.
+This project is a simple HTML and CSS blog-style webpage focused on the beauty and wonder of the night sky. The webpage features a large featured image, styled headings, informative paragraphs, hover effects, and source links related to stargazing and astronomy.
 
 Users can:
-* Choose to roll a dice  
-* Receive a random number between 1 and 6  
-* Roll the dice multiple times  
-* Exit the program when desired  
+- Read a blog post about the night sky
+- View a featured night sky image
+- Experience styled typography and layout
+- Interact with hover effects on paragraphs
+- Access external astronomy-related resources
 
 ---
 
 ## 🧱 Project Structure
 
-project-folder/  
-│  
-├── dice_roll.js   # Main program file (logic + user interaction)  
-└── README.md      # Project documentation  
+```text
+project-folder/
+│
+├── blog_post.html           # Main HTML webpage
+├── styles.css               # CSS styling file
+└── README.md                # Project documentation
+```
 
 ---
 
 ## 🚀 Features
 
-* Simulates rolling a six-sided dice  
-* Generates random numbers between 1 and 6  
-* Interactive user input with a loop (Y/N prompt)  
-* Runs continuously until the user exits  
-* Simple and easy-to-follow logic  
+- Blog-style webpage layout
+- Styled headings and typography
+- Featured night sky image
+- Hover effects on paragraph text
+- Organized sections using headers and footers
+- External resource links
+- Beginner-friendly HTML and CSS structure
 
 ---
 
 ## 🛠️ Technologies Used
 
-* JavaScript  
-* Console input/output (prompt + console.log)  
-* Node.js or browser environment (with prompt support)  
+- HTML5
+- CSS3
+- Images and hyperlinks
+- Hover effects and text styling
 
 ---
 
-## 📡 Program Logic
+## 📡 Program Purpose
 
-The program works by:
+This project is designed to:
 
-1. Generating a random number using `Math.random()`  
-2. Converting the value into a range between 1 and 6  
-3. Prompting the user to continue or stop  
-4. Repeating the process until the user enters "N"  
+1. Create a visually styled blog webpage  
+2. Demonstrate HTML webpage structure  
+3. Practice CSS layout and typography styling  
+4. Learn hover effects and image styling  
+5. Share information about stargazing and astronomy  
 
 ---
 
 ## ▶️ How to Run the Project
 
-1. Ensure you have a JavaScript runtime (like Node.js or a browser environment with `prompt`)  
-
-2. Run the program:
+1. Download or clone the repository:
    ```bash
-   node dice_roll.js
-Enter:
-Y to roll the dice
-N to stop the program
-View the results in the console
+   git clone <your-repository-url>
+   ```
+
+2. Open the project folder.
+
+3. Run the webpage by opening:
+   ```text
+   blog_post.html
+   ```
+
+4. View the webpage in your browser.
+
+---
+
+## 📂 Project Contents
+
+- `blog_post.html` — Main blog webpage file  
+- `styles.css` — Styling file  
+- `README.md` — Project documentation  
 
 ---
 
 ## 📅 Project Info
-Author: Ryan Pereira
-Created: 4/18/2026
-Last Modified: 4/18/2026
+
+**Author:** Ryan Pereira  
+**Created:** 11/15/2026  
+**Last Modified:** 11/15/2026  
 
 ---
 
