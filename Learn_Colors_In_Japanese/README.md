@@ -1,79 +1,108 @@
-# 🎲 Dice Roll Program
+# 🔴🟠🟡🟢🔵 Learn Colors in Japanese
 
 ## 📌 Overview
 
-This project is a JavaScript-based Dice Roll simulator that mimics rolling a six-sided die. The program prompts the user to decide whether they want to roll the dice and returns a random number between 1 and 6.
-
-The program continues running until the user chooses to stop.
+This project is a simple HTML and CSS webpage designed to help users learn basic color names in Japanese. The webpage displays color names in English and Japanese alongside matching colored images to create an engaging and beginner-friendly learning experience.
 
 Users can:
-* Choose to roll a dice  
-* Receive a random number between 1 and 6  
-* Roll the dice multiple times  
-* Exit the program when desired  
+- Learn Japanese color vocabulary
+- View matching color images
+- Practice recognizing Japanese characters
+- Explore a simple styled webpage using HTML and CSS
 
 ---
 
 ## 🧱 Project Structure
 
-project-folder/  
-│  
-├── dice_roll.js   # Main program file (logic + user interaction)  
-└── README.md      # Project documentation  
+```text
+project-folder/
+│
+├── index.html              # Main HTML webpage
+├── styles.css              # CSS styling file
+├── images/
+│   ├── red.png
+│   ├── orange.png
+│   ├── yellow.png
+│   ├── green.png
+│   └── blue.png
+└── README.md               # Project documentation
+```
 
 ---
 
 ## 🚀 Features
 
-* Simulates rolling a six-sided dice  
-* Generates random numbers between 1 and 6  
-* Interactive user input with a loop (Y/N prompt)  
-* Runs continuously until the user exits  
-* Simple and easy-to-follow logic  
+- Simple and responsive webpage
+- Displays Japanese and English color names
+- Color-coded text styling
+- Matching color images
+- Beginner-friendly HTML and CSS structure
+- Organized code with comments
 
 ---
 
 ## 🛠️ Technologies Used
 
-* JavaScript  
-* Console input/output (prompt + console.log)  
-* Node.js or browser environment (with prompt support)  
+- HTML5
+- CSS3
+- Images and styling techniques
 
 ---
 
-## 📡 Program Logic
+## 📡 Program Purpose
 
-The program works by:
+This project is designed to:
 
-1. Generating a random number using `Math.random()`  
-2. Converting the value into a range between 1 and 6  
-3. Prompting the user to continue or stop  
-4. Repeating the process until the user enters "N"  
+1. Teach basic Japanese color vocabulary  
+2. Demonstrate beginner HTML structure  
+3. Practice CSS styling and selectors  
+4. Display images and formatted text  
+5. Create an engaging educational webpage  
 
 ---
 
 ## ▶️ How to Run the Project
 
-1. Ensure you have a JavaScript runtime (like Node.js or a browser environment with `prompt`)  
-
-2. Run the program:
+1. Download or clone the repository:
    ```bash
-   node dice_roll.js
-Enter:
-Y to roll the dice
-N to stop the program
-View the results in the console
+   git clone <your-repository-url>
+   ```
+
+2. Open the project folder.
+
+3. Ensure the `images` folder contains:
+   - `red.png`
+   - `orange.png`
+   - `yellow.png`
+   - `green.png`
+   - `blue.png`
+
+4. Run the webpage by opening:
+   ```text
+   index.html
+   ```
+
+5. View the webpage in your browser.
+
+---
+
+## 📂 Project Contents
+
+- `index.html` — Main webpage file  
+- `styles.css` — Styling file  
+- `images/` — Folder containing color images  
+- `README.md` — Project documentation  
 
 ---
 
 ## 📅 Project Info
-Author: Ryan Pereira
-Created: 4/18/2026
-Last Modified: 4/18/2026
+
+**Author:** Ryan Pereira  
+**Created:** 4/2/2026  
+**Last Modified:** 4/2/2026  
 
 ---
 
 ## 📬 Contact
 
 Feel free to open an issue or suggest improvements.
-
