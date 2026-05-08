@@ -1,4 +1,4 @@
-# 🔴🟠🟡🟢🔵 Learn Colors in Japanese
+# 🔴🟠🟡🟢🔵🇯🇵🈶 Learn Colors in Japanese
 
 ## 📌 Overview
 
