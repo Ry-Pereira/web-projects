@@ -1,79 +1,101 @@
-# 🎲 Dice Roll Program
+# 🌌✨ Motivational Poster
 
 ## 📌 Overview
 
-This project is a JavaScript-based Dice Roll simulator that mimics rolling a six-sided die. The program prompts the user to decide whether they want to roll the dice and returns a random number between 1 and 6.
-
-The program continues running until the user chooses to stop.
+This project is a simple HTML and CSS motivational poster webpage that displays an inspiring message alongside a visually appealing image. The design uses centered content, styled typography, and a dark-themed background to create a clean and motivational user experience.
 
 Users can:
-* Choose to roll a dice  
-* Receive a random number between 1 and 6  
-* Roll the dice multiple times  
-* Exit the program when desired  
+- View a motivational quote
+- See a styled inspirational poster image
+- Experience a clean and visually centered webpage
+- Explore beginner-friendly HTML and CSS structure
 
 ---
 
 ## 🧱 Project Structure
 
-project-folder/  
-│  
-├── dice_roll.js   # Main program file (logic + user interaction)  
-└── README.md      # Project documentation  
+```text
+project-folder/
+│
+├── index.html                  # Main HTML webpage
+├── styles.css                  # CSS styling file
+├── images/
+│   └── hands_in_night_sky.jpg  # Motivational poster image
+└── README.md                   # Project documentation
+```
 
 ---
 
 ## 🚀 Features
 
-* Simulates rolling a six-sided dice  
-* Generates random numbers between 1 and 6  
-* Interactive user input with a loop (Y/N prompt)  
-* Runs continuously until the user exits  
-* Simple and easy-to-follow logic  
+- Simple and responsive webpage
+- Motivational message and subtitle
+- Dark-themed webpage design
+- Centered layout and typography
+- Styled image with decorative border
+- Beginner-friendly HTML and CSS structure
+- Organized and commented code
 
 ---
 
 ## 🛠️ Technologies Used
 
-* JavaScript  
-* Console input/output (prompt + console.log)  
-* Node.js or browser environment (with prompt support)  
+- HTML5
+- CSS3
+- Images and webpage styling
 
 ---
 
-## 📡 Program Logic
+## 📡 Program Purpose
 
-The program works by:
+This project is designed to:
 
-1. Generating a random number using `Math.random()`  
-2. Converting the value into a range between 1 and 6  
-3. Prompting the user to continue or stop  
-4. Repeating the process until the user enters "N"  
+1. Display motivational content in a visually appealing format  
+2. Demonstrate beginner HTML webpage structure  
+3. Practice CSS styling, layout, and typography  
+4. Learn how to style images and containers  
+5. Create a clean motivational poster webpage  
 
 ---
 
 ## ▶️ How to Run the Project
 
-1. Ensure you have a JavaScript runtime (like Node.js or a browser environment with `prompt`)  
-
-2. Run the program:
+1. Download or clone the repository:
    ```bash
-   node dice_roll.js
-Enter:
-Y to roll the dice
-N to stop the program
-View the results in the console
+   git clone <your-repository-url>
+   ```
+
+2. Open the project folder.
+
+3. Ensure the `images` folder contains:
+   - `hands_in_night_sky.jpg`
+
+4. Run the webpage by opening:
+   ```text
+   index.html
+   ```
+
+5. View the webpage in your browser.
+
+---
+
+## 📂 Project Contents
+
+- `index.html` — Main webpage file  
+- `styles.css` — Styling file  
+- `images/hands_in_night_sky.jpg` — Motivational image  
+- `README.md` — Project documentation  
 
 ---
 
 ## 📅 Project Info
-Author: Ryan Pereira
-Created: 4/18/2026
-Last Modified: 4/18/2026
+
+**Author:** Ryan Pereira  
+**Created:** 4/5/2026  
+**Last Modified:** 4/5/2026  
 
 ---
 
 ## 📬 Contact
 
 Feel free to open an issue or suggest improvements.
-
