@@ -1,75 +1,88 @@
-# 🎲 Dice Roll Program
+# 🎤 Tribute Page: Teezo Touchdown
 
 ## 📌 Overview
 
-This project is a JavaScript-based Dice Roll simulator that mimics rolling a six-sided die. The program prompts the user to decide whether they want to roll the dice and returns a random number between 1 and 6.
-
-The program continues running until the user chooses to stop.
+This project is a simple HTML tribute webpage dedicated to Teezo Touchdown, highlighting his music career, artistic style, and influence. The page includes a biography section, an image of the artist, and a link to learn more information online.
 
 Users can:
-* Choose to roll a dice  
-* Receive a random number between 1 and 6  
-* Roll the dice multiple times  
-* Exit the program when desired  
+- Read about Teezo Touchdown
+- View an image of the artist
+- Learn about his music and creative style
+- Access an external link for more information
 
 ---
 
 ## 🧱 Project Structure
 
-project-folder/  
-│  
-├── dice_roll.js   # Main program file (logic + user interaction)  
-└── README.md      # Project documentation  
+```text
+project-folder/
+│
+├── tribute_page.html       # Main HTML webpage
+└── README.md               # Project documentation
+```
 
 ---
 
 ## 🚀 Features
 
-* Simulates rolling a six-sided dice  
-* Generates random numbers between 1 and 6  
-* Interactive user input with a loop (Y/N prompt)  
-* Runs continuously until the user exits  
-* Simple and easy-to-follow logic  
+- Simple and responsive HTML webpage
+- Organized layout with headings and sections
+- Displays an artist image
+- Biography section using formatted text
+- External link to additional artist information
+- Beginner-friendly structure with code comments
 
 ---
 
 ## 🛠️ Technologies Used
 
-* JavaScript  
-* Console input/output (prompt + console.log)  
-* Node.js or browser environment (with prompt support)  
+- HTML5
+- Basic webpage structure elements
+- Images and hyperlinks
 
 ---
 
-## 📡 Program Logic
+## 📡 Program Purpose
 
-The program works by:
+This project is designed to:
 
-1. Generating a random number using `Math.random()`  
-2. Converting the value into a range between 1 and 6  
-3. Prompting the user to continue or stop  
-4. Repeating the process until the user enters "N"  
+1. Honor and showcase Teezo Touchdown  
+2. Demonstrate basic HTML webpage structure  
+3. Practice using headings, images, links, and text formatting  
+4. Create a visually simple and informative tribute page  
 
 ---
 
 ## ▶️ How to Run the Project
 
-1. Ensure you have a JavaScript runtime (like Node.js or a browser environment with `prompt`)  
-
-2. Run the program:
+1. Download or clone the repository:
    ```bash
-   node dice_roll.js
-Enter:
-Y to roll the dice
-N to stop the program
-View the results in the console
+   git clone <your-repository-url>
+   ```
+
+2. Open the project folder.
+
+3. Run the webpage by opening:
+   ```text
+   tribute_page.html
+   ```
+
+4. View the webpage in your browser.
+
+---
+
+## 📂 Project Contents
+
+- `tribute_page.html` — Main tribute webpage file  
+- `README.md` — Project documentation  
 
 ---
 
 ## 📅 Project Info
-Author: Ryan Pereira
-Created: 4/18/2026
-Last Modified: 4/18/2026
+
+**Author:** Ryan Pereira  
+**Created:** 4/3/2026  
+**Last Modified:** 4/3/2026  
 
 ---
 
