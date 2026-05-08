@@ -7,46 +7,49 @@
 /*Last Modified: 4/10/2026 */
 
 
+/* Styles the top section container with a red background and centered text */
 #top_section{
     background-color: red;
     text-align: center;
 }
 
+/* Sets the overall page background color */
 body{
     background-color: #F3E3D0;
 }
 
+/* Makes all images take up full width of their container */
 img{
     width:100%;
 }
 
+/* Adds a hover effect to all div elements, changing background color on hover */
 div:hover{
     background-color: #D2C4B4;
-    
 }
 
-
+/* Sets the color for all h1 and h2 headings */
 h1,h2{
     color:#81A6C6;
 }
 
+/* Sets the font size for main headings */
 h1{
     font-size: 36px;
-
 }
 
+/* Sets the font size for subheadings */
 h2{
     font-size: 28px;
-
 }
 
+/* Styles all paragraph text with color and font size */
 p{
     color:#AACDDC;
     font-size: 18px;
-
 }
 
-
+/* Applies a global font style and bold weight to all elements */
 *{
     font-family: 'Source Code Pro', monospace;
     font-weight: bold;
