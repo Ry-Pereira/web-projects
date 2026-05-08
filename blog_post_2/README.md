@@ -1,75 +1,99 @@
-# 🎲 Dice Roll Program
+# 🌊🐠🐬🐋🪼🪸🐟 Blog Post 2
 
 ## 📌 Overview
 
-This project is a JavaScript-based Dice Roll simulator that mimics rolling a six-sided die. The program prompts the user to decide whether they want to roll the dice and returns a random number between 1 and 6.
-
-The program continues running until the user chooses to stop.
+This project is a simple HTML and CSS blog webpage focused on the ocean and its importance to life on Earth. It includes multiple sections describing the ocean’s ecosystem, its role in the environment, and its overall beauty, paired with a large visual image and styled typography.
 
 Users can:
-* Choose to roll a dice  
-* Receive a random number between 1 and 6  
-* Roll the dice multiple times  
-* Exit the program when desired  
+- Read an informative blog about the ocean
+- View a featured ocean image
+- Explore structured sections with headings and paragraphs
+- Experience hover effects and styled text
+- Learn basic HTML and CSS layout design
 
 ---
 
 ## 🧱 Project Structure
 
-project-folder/  
-│  
-├── dice_roll.js   # Main program file (logic + user interaction)  
-└── README.md      # Project documentation  
+```text
+project-folder/
+│
+├── index.html        # Main HTML webpage (Blog Post 2)
+├── styles.css        # CSS styling file
+├── images/
+│   └── ocean.jpg     # Ocean image used in the blog
+└── README.md         # Project documentation
+```
 
 ---
 
 ## 🚀 Features
 
-* Simulates rolling a six-sided dice  
-* Generates random numbers between 1 and 6  
-* Interactive user input with a loop (Y/N prompt)  
-* Runs continuously until the user exits  
-* Simple and easy-to-follow logic  
+- Multi-section blog layout
+- Responsive full-width image
+- Hover effects on content sections
+- Clean typography using Google Fonts
+- Structured headings and paragraph formatting
+- Beginner-friendly HTML and CSS design
 
 ---
 
 ## 🛠️ Technologies Used
 
-* JavaScript  
-* Console input/output (prompt + console.log)  
-* Node.js or browser environment (with prompt support)  
+- HTML5
+- CSS3
+- Google Fonts (Source Code Pro)
+- Images and hover effects
 
 ---
 
-## 📡 Program Logic
+## 📡 Program Purpose
 
-The program works by:
+This project is designed to:
 
-1. Generating a random number using `Math.random()`  
-2. Converting the value into a range between 1 and 6  
-3. Prompting the user to continue or stop  
-4. Repeating the process until the user enters "N"  
+1. Practice building multi-section blog layouts  
+2. Learn HTML structure using divs, headings, and images  
+3. Apply CSS styling and hover interactions  
+4. Use external fonts for improved design  
+5. Present educational content in a clean format  
 
 ---
 
 ## ▶️ How to Run the Project
 
-1. Ensure you have a JavaScript runtime (like Node.js or a browser environment with `prompt`)  
-
-2. Run the program:
+1. Download or clone the repository:
    ```bash
-   node dice_roll.js
-Enter:
-Y to roll the dice
-N to stop the program
-View the results in the console
+   git clone <your-repository-url>
+   ```
+
+2. Open the project folder.
+
+3. Ensure the image file exists:
+   - `images/ocean.jpg`
+
+4. Run the webpage by opening:
+   ```text
+   index.html
+   ```
+
+5. View the blog in your browser.
+
+---
+
+## 📂 Project Contents
+
+- `index.html` — Main blog webpage  
+- `styles.css` — Styling file  
+- `images/ocean.jpg` — Ocean image  
+- `README.md` — Project documentation  
 
 ---
 
 ## 📅 Project Info
-Author: Ryan Pereira
-Created: 4/18/2026
-Last Modified: 4/18/2026
+
+**Author:** Ryan Pereira  
+**Created:** 4/10/2026  
+**Last Modified:** 4/10/2026  
 
 ---
 
