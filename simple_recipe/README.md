@@ -1,75 +1,90 @@
-# 🎲 Dice Roll Program
+# 🍞 Recipe Page - French Toast
 
-## 📌 Overview
-
-This project is a JavaScript-based Dice Roll simulator that mimics rolling a six-sided die. The program prompts the user to decide whether they want to roll the dice and returns a random number between 1 and 6.
-
-The program continues running until the user chooses to stop.
-
-Users can:
-* Choose to roll a dice  
-* Receive a random number between 1 and 6  
-* Roll the dice multiple times  
-* Exit the program when desired  
+This is a simple HTML recipe webpage that presents a French toast recipe, including ingredients, step-by-step instructions, an image, and a source link for the recipe.
 
 ---
 
 ## 🧱 Project Structure
 
-project-folder/  
-│  
-├── dice_roll.js   # Main program file (logic + user interaction)  
-└── README.md      # Project documentation  
+```
+Recipe_Page/
+│
+├── index.html
+└── README.md
+```
 
 ---
 
 ## 🚀 Features
 
-* Simulates rolling a six-sided dice  
-* Generates random numbers between 1 and 6  
-* Interactive user input with a loop (Y/N prompt)  
-* Runs continuously until the user exits  
-* Simple and easy-to-follow logic  
+- Recipe webpage for French toast  
+- Ingredients list  
+- Step-by-step instructions  
+- Image of the dish  
+- Source link included  
+- Simple and clean HTML layout  
 
 ---
 
 ## 🛠️ Technologies Used
 
-* JavaScript  
-* Console input/output (prompt + console.log)  
-* Node.js or browser environment (with prompt support)  
-
----
-
-## 📡 Program Logic
-
-The program works by:
-
-1. Generating a random number using `Math.random()`  
-2. Converting the value into a range between 1 and 6  
-3. Prompting the user to continue or stop  
-4. Repeating the process until the user enters "N"  
+- HTML5  
+- Basic webpage structure  
+- Images via external URL  
+- Links (anchor tags)  
 
 ---
 
 ## ▶️ How to Run the Project
 
-1. Ensure you have a JavaScript runtime (like Node.js or a browser environment with `prompt`)  
+1. Download or clone the repository:
 
-2. Run the program:
-   ```bash
-   node dice_roll.js
-Enter:
-Y to roll the dice
-N to stop the program
-View the results in the console
+```bash
+git clone <your-repository-url>
+```
+
+2. Open the project folder.
+
+3. Locate the file:
+
+```
+index.html
+```
+
+4. Open `index.html` in any web browser.
+
+5. View the recipe page.
+
+---
+
+## 📂 Project Contents
+
+- **index.html** — Main HTML recipe webpage  
+- **README.md** — Project documentation  
+
+---
+
+## 📡 Program Purpose
+
+This project is designed to:
+
+- Practice HTML structure and layout  
+- Build a simple recipe webpage  
+- Use lists (ordered and unordered)  
+- Include images and links  
+- Improve beginner web development skills  
 
 ---
 
 ## 📅 Project Info
-Author: Ryan Pereira
-Created: 4/18/2026
-Last Modified: 4/18/2026
+
+**Name:** Ryan Pereira  
+**Project Name:** Recipe Page - French Toast  
+**Description:** This is a simple HTML recipe webpage that presents a French toast recipe, including ingredients, step-by-step instructions, an image, and a source link for the recipe.  
+**Collaborators:** None  
+**Sources:** GitHub Copilot, Stack Overflow, ChatGPT, HTML documentation  
+**Date:** 11/7/2025  
+**Last Modified:** 11/7/2025  
 
 ---
 
