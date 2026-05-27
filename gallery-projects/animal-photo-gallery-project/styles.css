@@ -11,7 +11,7 @@
 /* Styles for the body of the page, including a background image, background size, and border */
 body{
     /* Set the background image to a nature background and make it cover the entire page */
-    background-image: url("images/backgrounds/nature_background.jpg");
+    background-image: url("images/backgrounds-pictures/nature-background-photo.jpg");
     background-size:cover;
     /* Add a border around the entire page */
     border: 8px solid black;
@@ -56,156 +56,156 @@ h1[draggable="true"]{
 
 /* Styles for the alligator image, including background image and size */
 #alligator_image{
-    background-image: url("images/still/alligator_still.jpg");
+    background-image: url("images/animal-still-pictures/alligator-still-photo.jpg");
     background-size:cover;
 }
 
 /* Styles for the alligator image when hovered, including background image and size */
 #alligator_image:hover{
-    background-image: url("images/moving/alligator_gif.gif");
+    background-image: url("images/animal-moving-pictures/alligator-moving-photo.gif");
     background-size:cover;
 }
 
 
 /* Styles for the bear image, including background image and size */
 #bear_image{
-    background-image: url("images/still/bear_still.jpg");
+    background-image: url("images/animal-still-pictures/bear-still-photo.jpg");
     background-size:cover;
 }
 
 
 /* Styles for the bear image when hovered, including background image and size */
 #bear_image:hover{
-    background-image: url("images/moving/bear_moving.gif");
+    background-image: url("images/animal-moving-pictures/bear-moving-photo.gif");
     background-size:cover;
 
 }
 /* Styles for the cat image, including background image and size */
 #cat_image{
-    background-image: url("images/still/cat_still.jpg");
+    background-image: url("images/animal-still-pictures/cat-still-photo.jpg");
     background-size:cover;
 }
 
 /* Styles for the cat image when hovered, including background image and size */
 #cat_image:hover{
-    background-image: url("images/moving/blackcat_moving.gif");
+    background-image: url("images/animal-moving-pictures/cat-moving-photo.gif");
     background-size:cover;
 }
 
 /* Styles for the dog image, including background image and size */
 #dog_image{
-    background-image: url("images/still/dog_still.jpg");
+    background-image: url("images/animal-still-pictures/dog-still-photo.jpg");
     background-size:cover;
 }
 
 /* Styles for the dog image when hovered, including background image and size */
 #dog_image:hover{
-    background-image: url("images/moving/dog_moving.gif");
+    background-image: url("images/animal-moving-pictures/dog-moving-photo.gif");
     background-size:cover;
 }
 
 /* Styles for the elephant image, including background image and size */
 #elephant_image{
-    background-image: url("images/still/elephant_still.jpg");
+    background-image: url("images/animal-still-pictures/elephant-still-photo.jpg");
     background-size:cover;
 }
 
 /* Styles for the elephant image when hovered, including background image and size */
 #elephant_image:hover{
-    background-image: url("images/moving/elephant_moving.gif");
+    background-image: url("images/animal-moving-pictures/elephant-moving-photo.gif");
     background-size:cover;
 }
 
 
 /* Styles for the fox image, including background image and size */
 #fox_image{
-    background-image: url("images/still/fox_still.jpg");
+    background-image: url("images/animal-still-pictures/fox-still-photo.jpg");
     background-size:cover;
 }
 
 /* Styles for the fox image when hovered, including background image and size */
 #fox_image:hover{
-    background-image: url("images/moving/fox_moving.gif");
+    background-image: url("images/animal-moving-pictures/fox-moving-photo.gif");
     background-size:cover;
 }
 
 /* Styles for the giraffe image, including background image and size */
 #giraffe_image{
-    background-image: url("images/still/giraffe_still.jpg");
+    background-image: url("images/animal-still-pictures/giraffe-still-photo.jpg");
     background-size:cover;
 }
 
 /* Styles for the giraffe image when hovered, including background image and size */
 #giraffe_image:hover{
-    background-image: url("images/moving/giraffe_moving.gif");
+    background-image: url("images/animal-moving-pictures/giraffe-moving-photo.gif");
     background-size:cover;
 }
 
 
 /* Styles for the horse image, including background image and size */
 #horse_image{
-    background-image: url("images/still/horse_still.jpg");
+    background-image: url("images/animal-still-pictures/horse-still-photo.jpg");
     background-size:cover;
 }
 
 /* Styles for the horse image when hovered, including background image and size */
 #horse_image:hover{
-    background-image: url("images/moving/horse_moving.gif");
+    background-image: url("images/animal-moving-pictures/horse-moving-photo.gif");
     background-size:cover;
 }
 
 
 /* Styles for the iguana image, including background image and size */
 #iguana_image{
-    background-image: url("images/still/iguana_still.jpg");
+    background-image: url("images/animal-still-pictures/iguana-still-photo.jpg");
     background-size:cover;
 }
 
 
 /* Styles for the iguana image when hovered, including background image and size */
 #iguana_image:hover{
-    background-image: url("images/moving/iguana_moving.gif");
+    background-image: url("images/animal-moving-pictures/iguana-moving-photo.gif");
     background-size:cover;
 }
 
 /* Styles for the jaguar image, including background image and size */
 #jaguar_image{
-    background-image: url("images/still/jaguar_still.jpg");
+    background-image: url("images/animal-still-pictures/jaguar-still-photo.jpg");
     background-size:cover;
 }
 
 
 /* Styles for the jaguar image when hovered, including background image and size */
 #jaguar_image:hover{
-    background-image: url("images/moving/jaguar_moving.gif");
+    background-image: url("images/animal-moving-pictures/jaguar-moving-photo.gif");
     background-size:cover;
 }
 
 
 /* Styles for the kangaroo image, including background image and size */
 #kangaroo_image{
-    background-image: url("images/still/kangaroo_still.jpg");
+    background-image: url("images/animal-still-pictures/kangaroo-still-photo.jpg");
     background-size:cover;
 }
 
 
 /* Styles for the kangaroo image when hovered, including background image and size */
 #kangaroo_image:hover{
-    background-image: url("images/moving/kangaroo_moving.gif");
+    background-image: url("images/animal-moving-pictures/kangaroo-moving-photo.gif");
     background-size:cover;
 }
 
 
 /* Styles for the lion image, including background image and size */
 #lion_image{
-    background-image: url("images/still/lion_still.jpg");
+    background-image: url("images/animal-still-pictures/lion-still-photo.jpg");
     background-size:cover;
 }
 
 
 /* Styles for the lion image when hovered, including background image and size */
 #lion_image:hover{
-    background-image: url("images/moving/lion_moving.gif");
+    background-image: url("images/animal-moving-pictures/lion-moving-photo.gif");
     background-size:cover;
 }
 
