@@ -1,22 +1,44 @@
+<!--Name: Ryan Pereira -->
+<!--Project Name: Number Counter -->
+<!--Description: This is a simple HTML page that displays a number counter with increase, decrease, and reset buttons -->
+<!--Collaborators: None -->
+<!--Sources: Github Copilot, Stack Overflow, ChatGPT, HTML documentation -->
+<!--Date: 5/29/2026 -->
+<!--Last Modified: 5/29/2026 -->
+
+
+
+<!-- Declares the document type as HTML5 -->
 <!DOCTYPE html>
+<!-- Root HTML element with English language specified -->
 <html lang="en">
+    <!-- Contains metadata and document settings -->
     <head>
+        <!-- Sets the character encoding to UTF-8 -->
         <meta charset="UTF-8">
+        <!-- Makes the page responsive on different screen sizes -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Links the external CSS stylesheet -->
         <link rel="stylesheet" href="styles.css">
+        <!-- Sets the title displayed in the browser tab -->
         <title>Number Counter</title>
     </head>
+    <!-- Contains all visible content on the webpage -->
     <body>
-        
-        <h1> Number Counter</h1>
+        <!-- Main heading of the page -->
+        <h1>Number Counter</h1>
+        <!-- Container that holds the counter and buttons -->
         <div id="div_box">
-            <h2 id = "numberCounter">0</h2>
+            <!-- Displays the current counter value -->
+            <h2 id="numberCounter">0</h2>
+            <!-- Button used to decrease the counter value -->
             <button id="decrease_button" class="button">Decrease</button>
+            <!-- Button used to reset the counter value -->
             <button id="reset_button" class="button">Reset</button>
+            <!-- Button used to increase the counter value -->
             <button id="increase_button" class="button">Increase</button>
         </div>
+        <!-- Links the external JavaScript file -->
         <script src="script.js"></script>
-
-   
     </body>
 </html>

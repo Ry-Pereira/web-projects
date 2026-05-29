@@ -1,45 +1,94 @@
+/* Name: Ryan Pereira */
+/* Project Name: Number Counter */
+/* Description: This stylesheet styles the number counter page, including the counter display, buttons, and container */
+/* Collaborators: None */
+/* Sources: Github Copilot, Stack Overflow, ChatGPT, CSS documentation */
+/* Date: 5/29/2026 */
+/* Last Modified: 5/29/2026 */
+
+
+
+
+
+/* Applies styles to every element on the page */
 *{
+    /* Sets the default font family */
     font-family: Arial, Helvetica, sans-serif;
-    font-style: bold;
+    /* Attempts to make text bold (font-weight: bold; is preferred) */
+    font-weight: bold;
+    /* Centers text horizontally */
     text-align: center;
+    /* Rounds the corners of elements */
     border-radius: 20px;
 }
 
 
 
 
-
+/* Styles the main page heading */
 h1{
+    /* Sets the text color to black */
     color: black;
+    /* Makes the heading large */
     font-size: 60px;
+    /* Adds space around the heading */
     margin: 60px;
 }
 
+
+
+/* Styles the counter number display */
 h2{
+    /* Sets the text color to a light blue */
     color: rgb(101, 159, 239);
+    /* Makes the counter number very large */
     font-size: 120px;
 }
 
+
+
+
+/* Styles the container that holds the counter and buttons */
 #div_box{
+    /* Creates a thick black border around the container */
     border: 10px solid black;
+    /* Sets the container width */
     width: 700px;
+    /* Sets the container height */
     height: 500px;
+    /* Centers the container horizontally */
     margin: auto;
 }
 
 
+
+
+/* Styles all elements with the button class */
 .button{
+    /* Sets the button background color */
     background-color: rgb(158, 215, 234);
-    cursor:pointer;
-    color:white;
+    /* Changes the cursor to a pointer when hovering */
+    cursor: pointer;
+    /* Sets the text color to white */
+    color: white;
+    /* Sets the button text size */
     font-size: 28px;
+    /* Adds space around each button */
     margin: 20px;
+    /* Adds space inside each button */
     padding: 20px;
+    /* Creates a black border around each button */
     border: 4px solid black;
+    /* Animates background-color changes over 0.3 seconds */
     transition: background-color 0.3s ease;
 }
 
+
+
+/* Applies styles when the mouse hovers over a button */
 .button:hover{
+    /* Changes the button background color */
     background-color: rgb(142, 196, 251);
-    color:rgba(231, 237, 246, 0.405);
+    /* Changes the text color to a semi-transparent light color */
+    color: rgba(231, 237, 246, 0.405);
 }
