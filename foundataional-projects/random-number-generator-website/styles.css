@@ -1,62 +1,97 @@
-/* Name: */
-/* Project Name: */
-/* Module Name: */
-/* Module Purpose: */
-/* Description: */
-/* Collaborators: */
-/* Sources: */
-/* Date: */
-/* Last Modified: */
+/* Name: Ryan Pereira */
+/* Project Name: Random Number Generator */
+/* Module Name: styles.css */
+/* Module Purpose: Styles for the Random Number Generator */
+/* Description: Defines the visual appearance of the webpage */
+/* Collaborators: None */
+/* Sources: Github Copilot, Stack Overflow, ChatGPT, CSS documentation */
+/* Date: 5/31/2026 */
+/* Last Modified: 5/31/2026 */
 
 
 
 
+/* Applies styles to all elements on the page */
 *{
+    /* Sets the font to Helvetica, with sans-serif as a fallback */
     font-family: Helvetica, sans-serif;
+    /* Centers text horizontally */
     text-align: center;
+    /* Rounds the corners of elements */
     border-radius: 30px;
-    
 }
 
 
+
+/* Styles the webpage body */
 body{
+    /* Sets the background color of the page */
     background-color: #39B1D1;
 }
 
 
 
-
+/* Styles the container that holds the number display and button */
 #numberDisplayContainer{
+    /* Sets the container background color */
     background-color: #D6FB61;
+    /* Creates a solid black border around the container */
     border: 15px solid black;
+    /* Sets the width of the container */
     width: 600px;
+    /* Sets the height of the container */
     height: 500px;
+    /* Adds space above the container */
     margin-top: 50px;
+    /* Centers the container horizontally */
     margin-left: auto;
+    /* Centers the container horizontally */
     margin-right: auto;
+    /* Allows the browser to determine the bottom margin */
     margin-bottom: auto;
-   
 }
 
 
+
+
+/* Styles the random number display */
 #numberDisplay{
+    /* Makes the displayed number large */
     font-size: 80px;
+    /* Adds space above the number display */
     margin-top: 60px;
 }
 
 
+
+
+/* Styles the generate number button */
 #generateNumberBtn{
+    /* Sets the button background color */
     background-color: #F6850C;
+    /* Sets the button text size */
     font-size: 30px;
+    /* Adds a solid black border */
     border: 5px solid black;
+    /* Makes the button text bold */
     font-weight: bold;
+    /* Adds space inside the button */
     padding: 20px 40px;
+    /* Adds space above the button */
     margin-top: 100px;
+    /* Smoothly animates background-color changes */
     transition: background-color 0.3s ease;
 }
 
+
+
+
+/* Applies styles when the mouse hovers over the button */
 #generateNumberBtn:hover{
+    /* Changes the text color to white */
     color: white;
+    /* Changes the button background color */
     background-color: #DE3E3E;
+    /* Changes the cursor to a pointer */
     cursor: pointer;
 }
