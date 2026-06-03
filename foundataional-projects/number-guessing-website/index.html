@@ -1,12 +1,12 @@
-<!-- Name: -->
-<!-- Project Name: -->
-<!-- Module Name: -->
-<!-- Module Purpose: -->
-<!-- Description: -->
-<!-- Collaborators: -->
-<!-- Sources: -->
-<!-- Date: -->
-<!-- Last Modified: -->
+<!-- Name: Ryan Pereira -->
+<!-- Project Name: Number Guessing Game -->
+<!-- Module Name: index.html -->
+<!-- Module Purpose: Main HTML structure for the number guessing game -->
+<!-- Description: HTML structure for the number guessing game -->
+<!-- Collaborators: None -->
+<!-- Sources: Github Copilot, Stack Overflow, ChatGPT, HTML documentation -->
+<!-- Date: 6/3/2026 -->
+<!-- Last Modified: 6/3/2026-->
 
 
 
@@ -29,12 +29,17 @@
     <body>
         <!-- Main heading of the page -->
         <h1>Number Guessing Game</h1>
-
+        <!-- Subheading with instructions for the game -->
         <h2>Guess a number between 1 and 100!</h2>
+        <!-- Container for the game elements -->
         <div id="gameContainer">
-            <p>Attempts: 0</p>
+            <!-- Paragraph to display the number of attempts -->
+            <p id="attemptNumber">Attempts: 0</p>
+            <!-- Paragraph to provide feedback on the user's guess -->
             <p id="guessFeedback">Please enter your guess:</p>
+            <!-- Input field for the user to enter their guess, restricted to numbers between 1 and 100 -->
             <input type="number" id="guessInput" min="1" max="100">
+            <!-- Button to submit the user's guess -->
             <button id="submitGuess">Submit Guess</button>
         </div>
         <!-- Links the external JavaScript file -->

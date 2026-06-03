@@ -32,7 +32,7 @@ function checkGuess(userGuessNumber){
 document.getElementById("submitGuess").onclick = function(){
     var userGuess = document.getElementById("guessInput").value;
     attempts++;
-    document.querySelector("p").textContent = "Attempts: " + attempts;
+    document.getElementById("attemptNumber").textContent = "Attempts: " + attempts;
     checkGuess(userGuess);
 }
 
