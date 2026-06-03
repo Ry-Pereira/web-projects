@@ -23,12 +23,20 @@
         <!-- Links the external CSS stylesheet -->
         <link rel="stylesheet" href="styles.css">
         <!-- Sets the title displayed in the browser tab -->
-        <title></title>
+        <title>Number Guessing Game</title>
     </head>
     <!-- Contains all visible content on the webpage -->
     <body>
         <!-- Main heading of the page -->
-        <h1></h1>
+        <h1>Number Guessing Game</h1>
+
+        <h2>Guess a number between 1 and 100!</h2>
+        <div id="gameContainer">
+            <p>Attempts: 0</p>
+            <p id="guessFeedback">Please enter your guess:</p>
+            <input type="number" id="guessInput" min="1" max="100">
+            <button id="submitGuess">Submit Guess</button>
+        </div>
         <!-- Links the external JavaScript file -->
         <script src="script.js"></script>
     </body>
