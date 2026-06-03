@@ -1,80 +1,145 @@
-/* Name: */
-/* Project Name: */
-/* Module Name: */
-/* Module Purpose: */
-/* Description: */
-/* Collaborators: */
-/* Sources: */
-/* Date: */
-/* Last Modified: */
+/* Name: Ryan Pereira */
+/* Project Name: Number Guessing Game */
+/* Description: A program for guessing a randomly generated number and providing feedback on the user's guesses */
+/* Module Name: styles.css */
+/* Module Purpose: Provides the CSS styling for the number guessing game */
+/* Collaborators: None */
+/* Sources: Github Copilot, Stack Overflow, ChatGPT, HTML documentation */
+/* Date: 6/3/2023 */
+/* Last Modified: 6/3/2023 */
 
+
+
+/* Applies styles to all elements */
 *{
+    /* Sets the font to Helvetica with a sans-serif fallback */
     font-family: Helvetica, sans-serif;
+    /* Makes all text bold */
     font-weight: bold;
+    /* Sets the default text color */
     color: #1F6F5F;
+    /* Centers text horizontally */
     text-align: center;
+    /* Rounds the corners of elements */
     border-radius: 10px;
 }
 
-*::selection{
-    background-color: #2FA084;
-    color: rgb(109, 248, 155);
 
+
+/* Styles highlighted/selected text */
+*::selection{
+    /* Sets the background color of selected text */
+    background-color: #2FA084;
+    /* Sets the color of selected text */
+    color: rgb(109, 248, 155);
 }
 
-#gameContainer{
-    border: 15px solid #1F6F5F;
-    width: 700px;
-    height:500px;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom:auto;
 
+
+/* Styles the main game container */
+#gameContainer{
+    /* Creates a thick solid border around the container */
+    border: 15px solid #1F6F5F;
+    /* Sets the width of the container */
+    width: 700px;
+    /* Sets the height of the container */
+    height: 500px;
+    /* Adds space above the container */
+    margin-top: 50px;
+    /* Centers the container horizontally */
+    margin-left: auto;
+    /* Centers the container horizontally */
+    margin-right: auto;
+    /* Allows the browser to determine the bottom margin */
+    margin-bottom: auto;
+    /* Sets the container background color */
     background-color: #6FCF97;
 }
 
+
+
+/* Styles all h1 and h2 headings */
 h1,h2{
+    /* Sets the heading text color */
     color: #9a9b8e;
 }
 
 
 
+
+/* Styles all paragraph elements */
 p{
+    /* Makes paragraph text larger */
     font-size: 40px;
 }
 
+
+
+
+/* Styles the number input field */
 #guessInput{
+    /* Sets the width of the input */
     width: 200px;
+    /* Sets the height of the input */
     height: 40px;
+    /* Sets the text size inside the input */
     font-size: 20px;
+    /* Adds space above the input */
     margin-top: 10px;
-    border: 5px solid #1F6F5F; 
+    /* Creates a solid border around the input */
+    border: 5px solid #1F6F5F;
+    /* Animates background color changes */
     transition: background-color 0.9s ease;
+    /* Animates text color changes (overrides previous transition declaration) */
     transition: color 0.9s ease;
 }
 
+
+
+
+/* Applies styles when the input is hovered */
 #guessInput:hover{
+    /* Changes the input background color */
     background-color: #2FA084;
+    /* Changes the input text color */
     color: white;
 }
 
+
+
+
+/* Styles the submit button */
 #submitGuess{
+    /* Sets the width of the button */
     width: 200px;
+    /* Sets the height of the button */
     height: 50px;
+    /* Sets the text size inside the button */
     font-size: 20px;
-    border: 5px solid #1F6F5F; 
+    /* Creates a solid border around the button */
+    border: 5px solid #1F6F5F;
+    /* Animates background color changes */
     transition: background-color 0.9s ease;
+    /* Animates text color changes (overrides previous transition declaration) */
     transition: color 0.9s ease;
-    
 }
 
+
+
+
+/* Applies styles when the button is hovered */
 #submitGuess:hover{
+    /* Changes the button background color */
     background-color: #2FA084;
+    /* Changes the button text color */
     color: white;
 }
 
 
+
+
+/* Styles the webpage body */
 body{
+    /* Sets the page background color */
     background-color: #EEEEEE;
 }
