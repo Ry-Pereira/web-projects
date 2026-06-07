@@ -1,84 +1,140 @@
-/* Name: */
-/* Project Name: */
-/* Module Name: */
-/* Module Purpose: */
-/* Description: */
-/* Collaborators: */
-/* Sources: */
-/* Date: */
-/* Last Modified: */
+/* Name: Ryan Pereira */
+/* Project Name: Temperature Converter Website */
+/* Module Name: styles.css */
+/* Module Purpose: Styles the temperature converter webpage */
+/* Description: Controls the appearance, layout, colors, and interactive effects of the webpage */
+/* Collaborators: None */
+/* Sources: GitHub Copilot, Stack Overflow, ChatGPT, HTML Documentation */
+/* Date: 6/6/2026 */
+/* Last Modified: 6/7/2026 */
 
 
+
+
+/* Applies styles to every element on the page */
 *{
+    /* Sets the font family */
     font-family: Helvetica, sans-serif;
-    font-weight:bold;
+    /* Makes all text bold */
+    font-weight: bold;
+    /* Centers text horizontally */
     text-align: center;
+    /* Sets the default text color */
     color: #a0907c;
-  
 }
 
+
+
+/* Styles highlighted text when the user selects it */
 *::selection{
+    /* Sets the text color of selected text */
     color: #d3c1ab;
+    /* Sets the background color of selected text */
     background-color: #D9CFC7;
-
 }
 
 
+
+
+/* Styles the webpage background */
 body{
-    background-color:#F9F8F6;
+    /* Sets the page background color */
+    background-color: #F9F8F6;
 }
 
 
+
+
+/* Styles the form container */
 form{
-    background-color:#EFE9E3;
-    height:500px;
-    width:450px;
-    margin-top:60px;
+    /* Sets the form background color */
+    background-color: #EFE9E3;
+    /* Sets the height of the form */
+    height: 500px;
+    /* Sets the width of the form */
+    width: 450px;
+    /* Adds space above the form */
+    margin-top: 60px;
+    /* Centers the form horizontally */
     margin-right: auto;
+    /* Centers the form horizontally */
     margin-left: auto;
-    margin-bottom:auto;
-    border: .5px solid black;
-    box-shadow: 20px 20px   #D9CFC7;
-}
-
-#temperature_input{
-    height:25px;
-    width:120px;
-    margin-top:20px;
-    margin-bottom:20px;
-    font-size: 25px;
-    cursor:pointer;
-    background-color: #D9CFC7;
-
-    
+    /* Allows the browser to determine the bottom margin */
+    margin-bottom: auto;
+    /* Adds a thin border around the form */
+    border: 0.5px solid black;
+    /* Adds a shadow behind the form */
+    box-shadow: 20px 20px #D9CFC7;
 }
 
 
 
 
-#submit_button{
-    font-size: 25px;
-    margin:10px;
-    border: 2px solid black;
-    box-shadow: 4px 4px #D9CFC7;
-    transition: background-color 0.3s ease;
-
-}
-
-#submit_button:hover{
-    background-color:  #b8afa8;
-    color:#D9CFC7;
-    box-shadow: 4px 4px #b8afa8;
-    border: 2px solid #b8afa8;
-    cursor:pointer;
-}
-
+/* Styles all label elements */
 label{
+    /* Sets the font size of labels */
     font-size: 25px;
 }
 
 
-#fahrenheit_to_celsius_radio_button,#celsius_to_fahrenheit_radio_button,#submit_button{
-    margin-top:20px;
-    cursor:pointer;
+
+
+/* Styles the temperature input box */
+#temperature_input{
+    /* Sets the height of the input field */
+    height: 25px;
+    /* Sets the width of the input field */
+    width: 120px;
+    /* Adds space above the input field */
+    margin-top: 20px;
+    /* Adds space below the input field */
+    margin-bottom: 20px;
+    /* Sets the text size inside the input field */
+    font-size: 25px;
+    /* Changes the cursor when hovering over the input */
+    cursor: pointer;
+    /* Sets the background color of the input field */
+    background-color: #D9CFC7;
+}
+
+
+
+/* Styles the submit button */
+#submit_button{
+    /* Sets the font size of the button text */
+    font-size: 25px;
+    /* Adds margin around the button */
+    margin: 10px;
+    /* Adds a border around the button */
+    border: 2px solid black;
+    /* Adds a shadow behind the button */
+    box-shadow: 4px 4px #D9CFC7;
+    /* Animates background-color changes */
+    transition: background-color 0.3s ease;
+}
+
+
+
+/* Styles the submit button when hovered over */
+#submit_button:hover{
+    /* Changes the background color */
+    background-color: #b8afa8;
+    /* Changes the text color */
+    color: #D9CFC7;
+    /* Changes the shadow color */
+    box-shadow: 4px 4px #b8afa8;
+    /* Changes the border color */
+    border: 2px solid #b8afa8;
+    /* Changes the cursor to a pointer */
+    cursor: pointer;
+}
+
+
+
+/* Styles both radio buttons and the submit button */
+#fahrenheit_to_celsius_radio_button, #celsius_to_fahrenheit_radio_button, #submit_button{
+    /* Adds space above each element */
+    margin-top: 20px;
+    /* Changes the cursor to a pointer */
+    cursor: pointer;
 }
