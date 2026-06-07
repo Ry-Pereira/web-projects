@@ -9,3 +9,58 @@
 /* Last Modified: */
 
 
+*{
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    color: #a0907c;
+  
+}
+
+
+
+body{
+    background-color:#F9F8F6;
+}
+
+
+form{
+    background-color:#EFE9E3;
+    height:500px;
+    width:450px;
+    margin-top:60px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom:auto;
+    border: .5px solid black;
+    box-shadow: 20px 20px   #D9CFC7;
+}
+
+#temperature_input{
+    height:25px;
+    width:120px;
+    margin-top:20px;
+    margin-bottom:20px;
+
+    
+}
+
+
+#submit_button{
+    font-size: 25px;
+    margin:10px;
+    border: 2px solid black;
+    box-shadow: 4px 4px #D9CFC7;
+
+}
+
+#submit_button:hover{
+    background-color: bisque;
+    cursor:pointer;
+}
+
+label{
+    font-size: 25px;
+}
+#fahrenheit_to_celsius_radio_button,#celsius_to_fahrenheit_radio_button,#submit_button{
+    margin-top:20px;
+}

@@ -23,13 +23,32 @@
         <!-- Links the external CSS stylesheet -->
         <link rel="stylesheet" href="styles.css">
         <!-- Sets the title displayed in the browser tab -->
-        <title></title>
+        <title>Temperature Converter</title>
     </head>
     <!-- Contains all visible content on the webpage -->
     <body>
         <!-- Main heading of the page -->
-        <h1></h1>
-        <!-- Links the external JavaScript file -->
+        <form>
+            <h1>Temperature Converter</h1>
+
+            
+            <label>Temperature: </label>
+            <input type ="number" id="temperature_input" placeholder="0">
+            <br>
+
+            <!--Assigning the same name attribute, makes sure only one of the radio buttons can be checked-->
+            <input type="radio" id="fahrenheit_to_celsius_radio_button" value="celsius" name="unit">
+            <label>Fahrenheit ⟶ Celsius</label>
+            <br>
+
+            <input type="radio" id="celsius_to_fahrenheit_radio_button" value="fahrenheit" name="unit">
+            <label>Celsius ⟶ Fahrenheit</label>
+            <br>
+            <button id="submit_button">Submit</button>
+
+            <!-- Links the external JavaScript file -->
+
+        </form>
         <script src="script.js"></script>
     </body>
 </html>
