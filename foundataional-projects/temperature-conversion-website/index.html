@@ -1,56 +1,65 @@
-<!-- Name: -->
-<!-- Project Name: -->
-<!-- Module Name: -->
-<!-- Module Purpose: -->
-<!-- Description: -->
-<!-- Collaborators: -->
-<!-- Sources: -->
-<!-- Date: -->
-<!-- Last Modified: -->
+<!-- Name: Ryan Pereira-->
+<!-- Project Name: Temperature Converter Project -->
+<!-- Module Name: index.html -->
+<!-- Module Purpose: Creates the structure and content of the temperature converter webpage -->
+<!-- Description: Allows users to enter a temperature, select a conversion type, and display the converted result -->
+<!-- Collaborators: None -->
+<!-- Sources: GitHub Copilot, Stack Overflow, ChatGPT, HTML Documentation -->
+<!-- Date: 6/6/2026 -->
+<!-- Last Modified: 6/7/2026 -->
+
+
 
 
 
 <!-- Declares the document type as HTML5 -->
 <!DOCTYPE html>
-<!-- Root HTML element with English language specified -->
+<!-- Root HTML element and specifies English as the page language -->
 <html lang="en">
-    <!-- Contains metadata and document settings -->
+    <!-- Contains metadata and resources used by the webpage -->
     <head>
         <!-- Sets the character encoding to UTF-8 -->
         <meta charset="UTF-8">
-        <!-- Makes the page responsive on different screen sizes -->
+        <!-- Makes the webpage responsive on different screen sizes -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Links the external CSS stylesheet -->
         <link rel="stylesheet" href="styles.css">
         <!-- Sets the title displayed in the browser tab -->
         <title>Temperature Converter</title>
     </head>
-    <!-- Contains all visible content on the webpage -->
+    <!-- Contains all visible content displayed on the webpage -->
     <body>
-        <!-- Main heading of the page -->
+        <!-- Form that contains all temperature converter controls -->
         <form>
+            <!-- Main heading displayed at the top of the page -->
             <h1>Temperature Converter</h1>
-
-            
+            <!-- Label describing the temperature input field -->
             <label>Temperature: </label>
-            <input type ="number" id="temperature_input" placeholder="0">
+            <!-- Input field where the user enters a temperature value -->
+            <input type="number" id="temperature_input" placeholder="0">
+            <!-- Moves the next element to a new line -->
             <br>
-
-            <!--Assigning the same name attribute, makes sure only one of the radio buttons can be checked-->
+            <!-- Radio buttons share the same name so only one can be selected at a time -->
+            <!-- Radio button for converting Fahrenheit to Celsius -->
             <input type="radio" id="fahrenheit_to_celsius_radio_button" value="celsius" name="unit">
+            <!-- Label describing the Fahrenheit to Celsius option -->
             <label>Fahrenheit ⟶ Celsius</label>
+            <!-- Moves the next element to a new line -->
             <br>
-
+            <!-- Radio button for converting Celsius to Fahrenheit -->
             <input type="radio" id="celsius_to_fahrenheit_radio_button" value="fahrenheit" name="unit">
+            <!-- Label describing the Celsius to Fahrenheit option -->
             <label>Celsius ⟶ Fahrenheit</label>
+            <!-- Moves the next element to a new line -->
             <br>
+            <!-- Button that starts the temperature conversion when clicked -->
             <button type="button" id="submit_button">Submit</button>
+            <!-- Moves the next element to a new line -->
             <br>
-            <h2 id="temperature_result">  </h2>
-
-            <!-- Links the external JavaScript file -->
-
+            <!-- Displays the converted temperature result -->
+            <h2 id="temperature_result"></h2>
         </form>
+        <!-- Links the external JavaScript file that handles conversions -->
         <script src="script.js"></script>
     </body>
 </html>
