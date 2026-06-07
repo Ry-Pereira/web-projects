@@ -11,11 +11,17 @@
 
 *{
     font-family: Helvetica, sans-serif;
+    font-weight:bold;
     text-align: center;
     color: #a0907c;
   
 }
 
+*::selection{
+    color: #d3c1ab;
+    background-color: #D9CFC7;
+
+}
 
 
 body{
@@ -40,9 +46,14 @@ form{
     width:120px;
     margin-top:20px;
     margin-bottom:20px;
+    font-size: 25px;
+    cursor:pointer;
+    background-color: #D9CFC7;
 
     
 }
+
+
 
 
 #submit_button{
@@ -50,17 +61,24 @@ form{
     margin:10px;
     border: 2px solid black;
     box-shadow: 4px 4px #D9CFC7;
+    transition: background-color 0.3s ease;
 
 }
 
 #submit_button:hover{
-    background-color: bisque;
+    background-color:  #b8afa8;
+    color:#D9CFC7;
+    box-shadow: 4px 4px #b8afa8;
+    border: 2px solid #b8afa8;
     cursor:pointer;
 }
 
 label{
     font-size: 25px;
 }
+
+
 #fahrenheit_to_celsius_radio_button,#celsius_to_fahrenheit_radio_button,#submit_button{
     margin-top:20px;
+    cursor:pointer;
 }
