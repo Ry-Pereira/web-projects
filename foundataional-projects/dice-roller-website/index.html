@@ -34,11 +34,14 @@
         <h1>Dice Roller</h1>
         <form>
             <label># Of Dice: </label>
-            <input type="number" id="dice_quantity" placeholder="1" min="1" max="10">
+            <input type="number" id="dice_quantity" placeholder="1" min="1" max="100">
             <button type="button" id="roll_dice_button">Roll Dice</button>
         </form>
 
-        <h2>Dice: </h2>
+        <h2 id="dice_value_display">Dice: </h2>
+        <div id="dice_images_container">
+
+        </div>
         <!-- Links the external JavaScript file -->
         <script src="script.js"></script>
     </body>
