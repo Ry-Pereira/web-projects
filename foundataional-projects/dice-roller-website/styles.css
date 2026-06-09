@@ -9,19 +9,86 @@
 /* Last Modified: */
 
 
-*{
+*,label{
     text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+*::selection{
+    color:#817d76;
+    background-color:#F5F5F5;
+
+}
+
+h1{
+    color:#FF0000;
+}
+
+#dice_value_display{
+    font-size:20px
+}
+
+label{
+    font-size: 27px;
+    color:#6FD1D7;
+}
+
+#dice_quantity{
+    color:#F8C463;
+    background-color:#F5F5F5;
+    font-size: 27px;
+    text-align:center;
+    border: 2px solid black;
+    border-radius:10px;
+    transition: background-color 0.3s ease;
+}
+
+
+#dice_quantity:hover{
+    color:#e0e3c8;
+    background-color:#e4b74e;
+
+}
+
+#roll_dice_button{
+    color:#CCD67F;
+    background-color:#F5F5F5;
+    font-size: 27px;
+    text-align:center;
+    border: 2px solid black;
+    border-radius:10px;
+    transition: background-color 0.3s ease;
+}
+
+#roll_dice_button:hover{
+    color:#e0e3c8;
+    background-color:#a7eda7;
 }
 
 
 body{
-    background-color:#F8FAFC;
+    background-color:#fffaf0;
 }
 
 
 #dice_images_container{
     width:400px;
-    height:400px;
+    height:412px;
     margin:auto;
-    border: 10px solid black;
+
+    border-radius:16px;
+}
+
+
+form{
+    padding-top: 5px;
+    margin-top:10px;
+    margin-right:auto;
+    margin-left:auto;
+    width:600px;
+    height:650px;
+    border-radius:16px;
+    background-color:#F1E2D1;
+    box-shadow: 10px 10px #cfccc5,20px 20px #b5b2ac;
 }

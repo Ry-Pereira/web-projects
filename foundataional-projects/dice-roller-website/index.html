@@ -31,17 +31,20 @@
             <source src="audio/dice-rolling-sound.mp3">
         </audio>
         <!-- Main heading of the page -->
-        <h1>Dice Roller</h1>
+
         <form>
+            <h1>Dice Roller</h1>
             <label># Of Dice: </label>
-            <input type="number" id="dice_quantity" placeholder="1" min="1" max="100">
+            <input type="number" id="dice_quantity" placeholder="1" min="1" max="16">
             <button type="button" id="roll_dice_button">Roll Dice</button>
-        </form>
+        
 
         <h2 id="dice_value_display">Dice: </h2>
         <div id="dice_images_container">
 
         </div>
+
+        </form>
         <!-- Links the external JavaScript file -->
         <script src="script.js"></script>
     </body>

@@ -32,27 +32,27 @@ function getDiceRollValue(){
 
 function displayDiceImage(diceValue){
     if(diceValue === 1){
-        document.getElementById("dice_images_container").innerHTML += '<img src="images/dice-six-faces-one.png" width="100px">';
+        document.getElementById("dice_images_container").innerHTML += '<img src="images/dice-six-faces-one.png" width="100px" style="margin: auto;">';
 
     }
     else if(diceValue === 2){
-       document.getElementById("dice_images_container").innerHTML += '<img src="images/dice-six-faces-two.png" width="100px">';
+       document.getElementById("dice_images_container").innerHTML += '<img src="images/dice-six-faces-two.png" width="100px"  style="margin: auto;">';
 
     }
     else if(diceValue === 3){
-        document.getElementById("dice_images_container").innerHTML += '<img src="images/dice-six-faces-three.png" width="100px">';
+        document.getElementById("dice_images_container").innerHTML += '<img src="images/dice-six-faces-three.png" width="100px" style="margin: auto;">';
 
     }
     else if(diceValue === 4){
-        document.getElementById("dice_images_container").innerHTML += '<img src="images/dice-six-faces-four.png" width="100px">';
+        document.getElementById("dice_images_container").innerHTML += '<img src="images/dice-six-faces-four.png" width="100px" style="margin: auto;">';
 
     }
     else if(diceValue === 5){
-        document.getElementById("dice_images_container").innerHTML += '<img src="images/dice-six-faces-five.png" width="100px">';
+        document.getElementById("dice_images_container").innerHTML += '<img src="images/dice-six-faces-five.png" width="100px" style="margin: auto;">';
 
     }
     else if(diceValue === 6){
-        document.getElementById("dice_images_container").innerHTML += '<img src="images/dice-six-faces-six.png" width="100px">';
+        document.getElementById("dice_images_container").innerHTML += '<img src="images/dice-six-faces-six.png" width="100px" style="margin: auto;">';
 
     }
         
