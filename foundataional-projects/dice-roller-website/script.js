@@ -1,12 +1,12 @@
-// Name: 
-// Project Name: 
-// Module Name: 
+// Name: Ryan Pereira
+// Project Name: Dice Roller Project 
+// Module Name: script.js
 // Module Purpose: 
 // Description: 
-// Collaborators: 
-// Sources: 
-// Date: 
-// Last Modified: 
+// Collaborators: None
+// Sources: Github Copilot, Stack Overflow, ChatGPT, JS documentation 
+// Date: 6/8/2026
+// Last Modified: 6/9/2026
 
 
 

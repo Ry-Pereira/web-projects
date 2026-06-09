@@ -1,14 +1,12 @@
-<!-- Name: -->
-<!-- Project Name: -->
-<!-- Module Name: -->
-<!-- Module Purpose: -->
-<!-- Description: -->
-<!-- Collaborators: -->
-<!-- Sources: -->
-<!-- Date: -->
-<!-- Last Modified: -->
-
-
+<!-- Name: Ryan Pereira -->
+<!-- Project Name: Dice Roller Project -->
+<!-- Module Name: index.html -->
+<!-- Module Purpose: Creates the structure and content for the Dice Roller webpage -->
+<!-- Description: Allows users to enter a number of dice, roll them, and display the results with images -->
+<!-- Collaborators: None -->
+<!-- Sources: Github Copilot, Stack Overflow, ChatGPT, CSS documentation -->
+<!-- Date: 6/8/2026 -->
+<!-- Last Modified: 6/9/2026 -->
 
 <!-- Declares the document type as HTML5 -->
 <!DOCTYPE html>
@@ -27,25 +25,28 @@
     </head>
     <!-- Contains all visible content on the webpage -->
     <body>
+        <!-- Audio element used to play the dice rolling sound effect -->
         <audio id="dice_rolling_sound">
+            <!-- Audio source file for the dice rolling sound -->
             <source src="audio/dice-rolling-sound.mp3">
         </audio>
-        <!-- Main heading of the page -->
-
+        <!-- Form container for the dice roller controls -->
         <form>
+            <!-- Main heading displayed at the top of the page -->
             <h1>Dice Roller</h1>
+            <!-- Label describing the dice quantity input field -->
             <label># Of Dice: </label>
+            <!-- Input field where users enter how many dice to roll -->
             <input type="number" id="dice_quantity" placeholder="1" min="1" max="16">
+            <!-- Button that triggers the dice rolling function -->
             <button type="button" id="roll_dice_button">Roll Dice</button>
-        
-
-        <h2 id="dice_value_display">Dice: </h2>
-        <div id="dice_images_container">
-
-        </div>
-
+            <!-- Heading used to display the rolled dice values -->
+            <h2 id="dice_value_display">Dice: </h2>
+            <!-- Container where dice images will be dynamically displayed -->
+            <div id="dice_images_container">
+            </div>
         </form>
-        <!-- Links the external JavaScript file -->
+        <!-- Links the external JavaScript file that controls page functionality -->
         <script src="script.js"></script>
     </body>
 </html>

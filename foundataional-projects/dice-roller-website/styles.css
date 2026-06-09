@@ -1,94 +1,89 @@
-/* Name: */
-/* Project Name: */
-/* Module Name: */
+/* Name: Ryan Pereira*/
+/* Project Name: Dice Roller Project */
+/* Module Name: styles.css*/
 /* Module Purpose: */
 /* Description: */
-/* Collaborators: */
-/* Sources: */
-/* Date: */
-/* Last Modified: */
+/* Collaborators: None*/
+/* Sources: Github Copilot, Stack Overflow, ChatGPT, CSS documentation */
+/* Date: 6/8/2026*/
+/* Last Modified: 6/9/2026*/
 
 
-*,label{
+
+*,label {
     text-align: center;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
 }
 
-*::selection{
-    color:#817d76;
-    background-color:#F5F5F5;
-
+*::selection {
+    color: #817d76;
+    background-color: #F5F5F5;
 }
 
-h1{
-    color:#FF0000;
+body {
+    background-color: #fffaf0;
 }
 
-#dice_value_display{
-    font-size:20px
+h1 {
+    color: #FF0000;
 }
 
-label{
+label {
     font-size: 27px;
-    color:#6FD1D7;
 }
 
-#dice_quantity{
-    color:#F8C463;
-    background-color:#F5F5F5;
+#dice_value_display {
+    font-size: 20px;
+}
+
+/* Input */
+#dice_quantity {
+    color: #F8C463;
+    background-color: #F5F5F5;
     font-size: 27px;
-    text-align:center;
+    text-align: center;
     border: 2px solid black;
-    border-radius:10px;
+    border-radius: 10px;
     transition: background-color 0.3s ease;
 }
 
-
-#dice_quantity:hover{
-    color:#e0e3c8;
-    background-color:#e4b74e;
-
+#dice_quantity:hover {
+    color: #e0e3c8;
+    background-color: #e4b74e;
 }
 
-#roll_dice_button{
-    color:#CCD67F;
-    background-color:#F5F5F5;
+/* Button */
+#roll_dice_button {
+    color: #CCD67F;
+    background-color: #F5F5F5;
     font-size: 27px;
-    text-align:center;
+    text-align: center;
     border: 2px solid black;
-    border-radius:10px;
+    border-radius: 10px;
     transition: background-color 0.3s ease;
 }
 
-#roll_dice_button:hover{
-    color:#e0e3c8;
-    background-color:#a7eda7;
+#roll_dice_button:hover {
+    color: #e0e3c8;
+    background-color: #a7eda7;
 }
 
-
-body{
-    background-color:#fffaf0;
+/* Dice Images */
+#dice_images_container {
+    width: 400px;
+    height: 412px;
+    margin: auto;
+    border-radius: 16px;
 }
 
-
-#dice_images_container{
-    width:400px;
-    height:412px;
-    margin:auto;
-
-    border-radius:16px;
-}
-
-
-form{
+/* Form */
+form {
+    width: 600px;
+    height: 650px;
+    margin: 10px auto 0;
     padding-top: 5px;
-    margin-top:10px;
-    margin-right:auto;
-    margin-left:auto;
-    width:600px;
-    height:650px;
-    border-radius:16px;
-    background-color:#F1E2D1;
+    border-radius: 16px;
+    background-color: #F1E2D1;
     box-shadow: 10px 10px #cfccc5,20px 20px #b5b2ac;
 }
