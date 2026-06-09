@@ -1,89 +1,144 @@
-/* Name: Ryan Pereira*/
+/* Name: Ryan Pereira */
 /* Project Name: Dice Roller Project */
-/* Module Name: styles.css*/
-/* Module Purpose: */
-/* Description: */
-/* Collaborators: None*/
+/* Module Name: styles.css */
+/* Module Purpose: Styles the Dice Roller webpage and its elements */
+/* Description: Provides layout, colors, typography, animations, and visual effects for the Dice Roller project */
+/* Collaborators: None */
 /* Sources: Github Copilot, Stack Overflow, ChatGPT, CSS documentation */
-/* Date: 6/8/2026*/
-/* Last Modified: 6/9/2026*/
+/* Date: 6/8/2026 */
+/* Last Modified: 6/9/2026 */
 
 
 
-*,label {
+
+
+/* Applies styling to all elements and all labels on the page */
+*, label {
+    /* Centers text inside elements */
     text-align: center;
+    /* Sets the font family to Helvetica with a sans-serif fallback */
     font-family: Helvetica, sans-serif;
+    /* Makes text bold */
     font-weight: bold;
 }
 
+
+
+/* Styles highlighted text when the user selects content */
 *::selection {
+    /* Sets the text color of selected content */
     color: #817d76;
+    /* Sets the background color of selected content */
     background-color: #F5F5F5;
 }
 
+/* Styles the webpage body */
 body {
+    /* Sets the page background color */
     background-color: #fffaf0;
 }
 
+/* Styles all h1 headings */
 h1 {
+    /* Sets the heading text color to red */
     color: #FF0000;
 }
 
+/* Styles all label elements */
 label {
+    /* Sets the font size of labels */
     font-size: 27px;
 }
 
+/* Styles the dice value display heading */
 #dice_value_display {
+    /* Sets the font size of the displayed dice values */
     font-size: 20px;
 }
 
 /* Input */
+/* Styles the dice quantity input field */
 #dice_quantity {
+    /* Sets the text color */
     color: #F8C463;
+    /* Sets the background color */
     background-color: #F5F5F5;
+    /* Sets the font size */
     font-size: 27px;
+    /* Centers the text inside the input */
     text-align: center;
+    /* Creates a solid black border */
     border: 2px solid black;
+    /* Rounds the corners of the input field */
     border-radius: 10px;
+    /* Adds a smooth transition effect when the background color changes */
     transition: background-color 0.3s ease;
 }
 
+/* Styles the input field when the mouse hovers over it */
 #dice_quantity:hover {
+    /* Changes the text color on hover */
     color: #e0e3c8;
+    /* Changes the background color on hover */
     background-color: #e4b74e;
 }
 
 /* Button */
+/* Styles the roll dice button */
 #roll_dice_button {
+    /* Sets the text color */
     color: #CCD67F;
+    /* Sets the background color */
     background-color: #F5F5F5;
+    /* Sets the font size */
     font-size: 27px;
+    /* Centers the button text */
     text-align: center;
+    /* Creates a solid black border */
     border: 2px solid black;
+    /* Rounds the corners of the button */
     border-radius: 10px;
+    /* Adds a smooth transition effect when the background color changes */
     transition: background-color 0.3s ease;
 }
 
+/* Styles the button when the mouse hovers over it */
 #roll_dice_button:hover {
+    /* Changes the text color on hover */
     color: #e0e3c8;
+    /* Changes the background color on hover */
     background-color: #a7eda7;
 }
 
 /* Dice Images */
+
+/* Styles the container that holds the dice images */
 #dice_images_container {
+    /* Sets the width of the container */
     width: 400px;
+    /* Sets the height of the container */
     height: 412px;
+    /* Centers the container horizontally */
     margin: auto;
+    /* Rounds the corners of the container */
     border-radius: 16px;
 }
 
 /* Form */
+/* Styles the main form container */
 form {
+    /* Sets the width of the form */
     width: 600px;
+    /* Sets the height of the form */
     height: 650px;
+    /* Adds spacing above the form and centers it horizontally */
     margin: 10px auto 0;
+    /* Adds padding to the top of the form */
     padding-top: 5px;
+    /* Rounds the corners of the form */
     border-radius: 16px;
+    /* Sets the background color of the form */
     background-color: #F1E2D1;
-    box-shadow: 10px 10px #cfccc5,20px 20px #b5b2ac;
+    /* Adds a layered shadow effect around the form */
+    box-shadow: 10px 10px #cfccc5, 20px 20px #b5b2ac;
 }
