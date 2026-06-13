@@ -28,7 +28,38 @@
     <!-- Contains all visible content on the webpage -->
     <body>
         <!-- Main heading of the page -->
-        <h1></h1>
+        <div id="coloring_page">
+        <h1>RGB Color Changer</h1>
+        <div id="background_canvas">
+
+            </div>
+        <form>
+            
+
+            <label id="rgb_red_label">Red Value (0-255)</label>
+            <input type="number" id="rgb_red_value_input" placeholder="0" min="0" max="255" required>
+            <br>
+
+            <label id="rgb_green_label">Green Value (0-255)</label>
+            <input type="number" id="rgb_green_value_input" placeholder="0" min="0" max="255" required>
+            <br>
+
+            <label id="rgb_blue_label">Blue Value (0-255)</label>
+            <input type="number" id="rgb_blue_value_input" placeholder="0" min="0" max="255" required>
+            <br>
+
+            <audio id="paintbrush_audio" src="audio/painting-sound.mp3"></audio>
+            <button id="submit" type="submit">Submit</button>
+
+
+
+
+
+        </form>
+
+
+        </div>
+
         <!-- Links the external JavaScript file -->
         <script src="script.js"></script>
     </body>
