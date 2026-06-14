@@ -1,122 +1,289 @@
-# 🌐🎨⚡ HTML, CSS & JavaScript Project Templates
+# 🎨🖌️ RGB Background Color Changer 🌈
 
-## 📌 Overview
+## 📖 Project Overview
 
-This repository contains a collection of starter templates for HTML, CSS, and JavaScript projects. These templates provide a structured foundation for building web applications and websites while helping developers organize their projects efficiently.
+The **RGB Background Color Changer** is a web application that allows users to create custom colors by entering **Red**, **Green**, and **Blue** (RGB) values ranging from **0 to 255**. When the user clicks the **Submit** button, the application updates a preview canvas with the selected color and plays a paintbrush sound effect. 🎵🖍️
 
-Users can:
-
-* Start new web development projects quickly
-* Reuse pre-built project structures
-* Organize media files efficiently
-* Learn proper project organization
-* Customize templates for different project types
-* Practice HTML, CSS, and JavaScript development
+This project demonstrates the use of **HTML**, **CSS**, and **JavaScript** to create an interactive and visually appealing user experience.
 
 ---
 
-## 🧱 Project Structure
+## ✨ Features
+
+🎨 Enter custom RGB values using number input fields.
+
+🟥 Modify the red color component.
+
+🟩 Modify the green color component.
+
+🟦 Modify the blue color component.
+
+🖌️ Instantly preview the generated color.
+
+🎵 Play a paintbrush sound effect when applying a color.
+
+🌈 Smooth color transition animations.
+
+📱 Responsive webpage layout.
+
+---
+
+## 🛠️ Technologies Used
+
+### 🌐 Front-End
+
+- HTML5
+- CSS3
+- JavaScript
+
+### 🎵 Multimedia
+
+- HTML Audio Element
+
+### 💻 Development Tools
+
+- Visual Studio Code
+- GitHub
+
+---
+
+## 📂 Project Structure
 
 ```text
-html-css-javascript-project-templates/
+RGB_Background_Color_Project/
 │
-├── basic/
-│   ├── index.html
-│   ├── styles.css
-│   ├── script.js
-│   └── README.md
+├── index.html
+├── styles.css
+├── script.js
 │
-├── landing-page/
-│   ├── index.html
-│   ├── styles.css
-│   ├── script.js
-│   ├── images/
-│   └── README.md
-│
-├── multimedia/
-│   ├── index.html
-│   ├── styles.css
-│   ├── script.js
-│   ├── images/
-│   ├── audio/
-│   ├── videos/
-│   └── README.md
+├── audio/
+│   └── painting-sound.mp3
 │
 └── README.md
 ```
 
 ---
 
-## 🚀 Features
+## 📄 Module Descriptions
 
-* Ready-to-use project templates
-* Beginner-friendly file structures
-* Reusable starter code
-* Organized project layouts
-* Support for multimedia projects
-* Easy customization
-* Consistent folder organization
+### 📃 index.html
 
----
+Responsible for the structure and content of the webpage.
 
-## 🛠️ Technologies Used
+#### Contains:
 
-* HTML5
-* CSS3
-* JavaScript (ES6)
+- 🎨 RGB color input fields
+- 🏷️ Labels for each RGB component
+- 🖼️ Color preview canvas
+- 🎵 Audio element
+- 🔘 Submit button
 
 ---
 
-## 📡 Project Purpose
+### 🎨 styles.css
 
-This repository is designed to:
+Responsible for the visual appearance of the application.
 
-1. Provide reusable web development templates
-2. Demonstrate proper project organization
-3. Help developers start projects faster
-4. Encourage consistent file structures
-5. Support multimedia-based projects
-6. Improve front-end development workflow
+#### Styles:
 
----
-
-## ▶️ How to Run the Project
-
-1. Download or clone the repository:
-
-   ```bash
-   git clone <your-repository-url>
-   ```
-
-2. Open the repository folder.
-
-3. Choose a template folder.
-
-4. Open the desired template.
-
-5. Launch the project by opening:
-
-   ```text
-   index.html
-   ```
-
-6. Begin customizing the template for your project.
+- 🖌️ Background color preview canvas
+- 🔤 Text formatting
+- 🏷️ Labels
+- 🔘 Buttons
+- 📦 Layout positioning
+- ✨ Color transition animations
 
 ---
 
-## 📂 Project Contents
+### ⚡ script.js
 
-* `basic/` — Basic HTML, CSS, and JavaScript template
-* `landing-page/` — Landing page template with image support
-* `multimedia/` — Template with images, audio, and video folders
-* `README.md` — Repository documentation
+Responsible for the application's functionality.
+
+#### Functions:
+
+##### 🎨 changeBackgroundColor()
+
+Updates the preview canvas using the RGB values entered by the user.
+
+##### 🖱️ Submit Button Event Handler
+
+- Retrieves user input values.
+- Plays the paintbrush sound effect.
+- Calls the background color changing function.
 
 ---
 
-## 📅 Project Info
+## 🚀 How to Run the Program
 
-**Author:** Ryan Pereira
-**Created:** 05/31/2026
-**Last Modified:** 05/31/2026
+### 1️⃣ Download the Project
 
+Clone the repository or download the project files.
+
+```bash
+git clone <repository-url>
+```
+
+### 2️⃣ Open the Project
+
+Open the project folder in:
+
+💻 Visual Studio Code
+
+or
+
+📁 Any code editor
+
+### 3️⃣ Launch the Application
+
+Open:
+
+```text
+index.html
+```
+
+in your preferred web browser.
+
+🌐 Google Chrome
+
+🌐 Firefox
+
+🌐 Microsoft Edge
+
+🌐 Safari
+
+---
+
+## 🎮 How to Use
+
+### Step 1️⃣
+
+Enter a value between **0 and 255** for:
+
+🟥 Red
+
+🟩 Green
+
+🟦 Blue
+
+### Step 2️⃣
+
+Click the:
+
+🔘 **Submit** button
+
+### Step 3️⃣
+
+Observe the results:
+
+🎨 The preview canvas changes color.
+
+🎵 The paintbrush sound effect plays.
+
+🌈 The color transition animates smoothly.
+
+---
+
+## 📚 Concepts Demonstrated
+
+### HTML
+
+✅ Forms and Inputs
+
+✅ Labels
+
+✅ Audio Elements
+
+✅ DOM Elements
+
+---
+
+### CSS
+
+✅ Selectors
+
+✅ Classes
+
+✅ IDs
+
+✅ Box Model
+
+✅ Colors
+
+✅ Transitions
+
+✅ Layout Design
+
+---
+
+### JavaScript
+
+✅ Functions
+
+✅ Event Handling
+
+✅ DOM Manipulation
+
+✅ Template Literals
+
+✅ User Input Processing
+
+✅ Audio Playback
+
+---
+
+## 🎯 Learning Objectives
+
+By completing this project, students gain experience with:
+
+🎨 Interactive web design
+
+⚡ JavaScript event handling
+
+🖱️ DOM manipulation
+
+🌈 RGB color systems
+
+🎵 Multimedia integration
+
+💻 Front-end web development
+
+---
+
+## 🔮 Possible Future Enhancements
+
+🌈 Random Color Generator Button
+
+🎲 Random RGB Value Generator
+
+📋 Copy RGB Value to Clipboard
+
+🌙 Dark Mode
+
+🎨 Color History Tracking
+
+🖌️ Color Palette Presets
+
+💾 Save Favorite Colors
+
+📱 Improved Mobile Responsiveness
+
+---
+
+## 👨‍💻 Author
+
+### Ryan Pereira
+
+🎓 Computer Science Student
+
+💻 University of Kansas
+
+🌟 Passionate about programming, web development, and software engineering.
+
+---
+
+## 🎉 Project Complete!
+
+🟥 + 🟩 + 🟦 = 🌈
+
+Happy Coding! 🚀💻🎨
 
