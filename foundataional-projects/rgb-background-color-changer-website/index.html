@@ -1,12 +1,12 @@
-<!-- Name: -->
-<!-- Project Name: -->
-<!-- Module Name: -->
-<!-- Module Purpose: -->
-<!-- Description: -->
-<!-- Collaborators: -->
-<!-- Sources: -->
-<!-- Date: -->
-<!-- Last Modified: -->
+<!-- Name: Ryan Pereira -->
+<!-- Project Name: RGB Background Color Project -->
+<!-- Module Name: index.html -->
+<!-- Module Purpose: Creates the user interface for entering RGB values and displaying the resulting background color. -->
+<!-- Description: Contains the page structure, RGB input fields, color display canvas, audio element, and submit button used by the RGB Background Color Changer application. -->
+<!-- Collaborators: None -->
+<!-- Sources: Github Copilot, Stack Overflow, ChatGPT, CSS documentation -->
+<!-- Date: 6/13/2026 -->
+<!-- Last Modified: 6/14/2026 -->
 
 
 
@@ -23,43 +23,33 @@
         <!-- Links the external CSS stylesheet -->
         <link rel="stylesheet" href="styles.css">
         <!-- Sets the title displayed in the browser tab -->
-        <title></title>
+        <title>RGB Background Color Changer</title>
     </head>
     <!-- Contains all visible content on the webpage -->
     <body>
         <!-- Main heading of the page -->
         <div id="coloring_page">
-        <h1>RGB Color Changer</h1>
-        <div id="background_canvas">
-
+            <h1>RGB Background Color Changer</h1>
+            <!-- Displays the color generated from the RGB values entered by the user -->
+            <div id="background_canvas">
             </div>
-        <form>
-            
-
+            <!-- Label and input for the red RGB color value -->
             <label id="rgb_red_label">Red Value (0-255)</label>
-            <input type="number" id="rgb_red_value_input" placeholder="0" min="0" max="255" required>
+            <input type="number" id="rgb_red_value_input" class="rgb_input" placeholder="0" min="0" max="255" value="0">
             <br>
-
+            <!-- Label and input for the green RGB color value -->
             <label id="rgb_green_label">Green Value (0-255)</label>
-            <input type="number" id="rgb_green_value_input" placeholder="0" min="0" max="255" required>
+            <input type="number" id="rgb_green_value_input" class="rgb_input" placeholder="0" min="0" max="255" value="0">
             <br>
-
+            <!-- Label and input for the blue RGB color value -->
             <label id="rgb_blue_label">Blue Value (0-255)</label>
-            <input type="number" id="rgb_blue_value_input" placeholder="0" min="0" max="255" required>
+            <input type="number" id="rgb_blue_value_input" class="rgb_input" placeholder="0" min="0" max="255" value="0">
             <br>
-
+            <!-- Audio played when the user submits RGB values -->
             <audio id="paintbrush_audio" src="audio/painting-sound.mp3"></audio>
-            <button id="submit" type="submit">Submit</button>
-
-
-
-
-
-        </form>
-
-
+            <!-- Button that applies the selected RGB color to the canvas -->
+            <button id="submit" type="button">Color</button>
         </div>
-
         <!-- Links the external JavaScript file -->
         <script src="script.js"></script>
     </body>
