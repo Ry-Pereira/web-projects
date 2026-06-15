@@ -1,12 +1,15 @@
-<!-- Name: -->
-<!-- Project Name: -->
-<!-- Module Name: -->
-<!-- Module Purpose: -->
-<!-- Description: -->
-<!-- Collaborators: -->
-<!-- Sources: -->
-<!-- Date: -->
-<!-- Last Modified: -->
+<!-- Name: Ryan Pereira -->
+<!-- Project Name: Digital Clock -->
+<!-- Module Name: index.html -->
+<!-- Module Purpose: Creates the structure of the digital clock webpage and displays the current date, time, and background music. -->
+<!-- Description: Contains the HTML elements for displaying the date, time, ambient music player, and links to the CSS and JavaScript files. -->
+<!-- Collaborators: None -->
+<!-- Sources: Github Copilot, Stack Overflow, ChatGPT, CSS documentation -->
+<!-- Date: 6/14/2026 -->
+<!-- Last Modified: 6/15/2026 -->
+
+
+
 
 
 
@@ -20,21 +23,24 @@
         <meta charset="UTF-8">
         <!-- Makes the page responsive on different screen sizes -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Links the external CSS stylesheet -->
+        <!-- Links the external CSS stylesheet used for styling the page -->
         <link rel="stylesheet" href="styles.css">
         <!-- Sets the title displayed in the browser tab -->
         <title>Digital Clock</title>
     </head>
     <!-- Contains all visible content on the webpage -->
     <body>
-        <audio id="ambient_music_player" src="audio/minecraft-autumn-music-and-ambience.mp3" autoplay loop></audio>
-        <h1 id="date"></h1>
-        <!-- Main heading of the page -->
+        <!-- Audio player that automatically plays Minecraft ambient music and loops continuously -->
+        <audio id="ambient_music_player" src="audio/minecraft-autumn-music-and-ambience.mp3" autoplay loop>
+        </audio>
+        <!-- Heading element used to display the current date -->
+        <h1 id="date_display"></h1>
+        <!-- Container that holds the digital clock display -->
         <div id="time_box">
-            <h2 id="time_display">00:00:00</h1>
+            <!-- Heading element used to display the current time -->
+            <h2 id="time_display">00:00:00</h2>
         </div>
-        
-        <!-- Links the external JavaScript file -->
+        <!-- Links the external JavaScript file that updates the date and time -->
         <script src="script.js"></script>
     </body>
 </html>
