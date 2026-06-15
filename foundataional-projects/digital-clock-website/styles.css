@@ -13,13 +13,14 @@
     text-align:center;
     font-size:50px;
     font-family: Helvetica, sans-serif;
+    color:rgba(255, 166, 0, 0.831);
 }
 
 
 
 
 #time_box{
-    color:rgba(255, 166, 0, 0.831);
+    
     margin-right:auto;
     margin-left:auto;
     margin-bottom:auto;
@@ -44,3 +45,5 @@ body{
     background-size: cover;
     
 }
+
+
