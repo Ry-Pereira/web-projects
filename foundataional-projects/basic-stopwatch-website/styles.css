@@ -9,3 +9,19 @@
 /* Last Modified: */
 
 
+
+
+
+
+*{
+    text-align: center;
+
+}
+
+
+
+body{
+    background-image: url("images/daytime-forest.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
