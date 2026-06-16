@@ -1,122 +1,126 @@
-# 🌐🎨⚡ HTML, CSS & JavaScript Project Templates
+# ⏰🌲🎮 Digital Clock Website Project 🎮🌲⏰
 
-## 📌 Overview
+## 📖✨ Description
 
-This repository contains a collection of starter templates for HTML, CSS, and JavaScript projects. These templates provide a structured foundation for building web applications and websites while helping developers organize their projects efficiently.
-
-Users can:
-
-* Start new web development projects quickly
-* Reuse pre-built project structures
-* Organize media files efficiently
-* Learn proper project organization
-* Customize templates for different project types
-* Practice HTML, CSS, and JavaScript development
+A Minecraft-themed digital clock website that displays the current date 📅 and time ⌚ in real time. The project uses HTML 🧱, CSS 🎨, and JavaScript ⚙️ to create a live clock with a custom Minecraft font 🔤, scenic background image 🏞️, and relaxing ambient Minecraft music 🎵.
 
 ---
 
-## 🧱 Project Structure
+## 🌟🎯 Features
+
+✅ Displays the current date 📅
+
+✅ Displays the current time ⌚
+
+✅ Uses a 12-hour clock format 🕛
+
+✅ Includes AM/PM indicators 🌞🌙
+
+✅ Updates automatically every second 🔄
+
+✅ Custom Minecraft font 🔤⛏️
+
+✅ Minecraft-themed background image 🏞️🌲
+
+✅ Ambient background music 🎵🎧
+
+✅ Clean and simple user interface 🖥️✨
+
+---
+
+## 🛠️💻 Technologies Used
+
+- 🌐 HTML5
+- 🎨 CSS3
+- ⚙️ JavaScript
+
+---
+
+## 📁🗂️ Project Structure
 
 ```text
-html-css-javascript-project-templates/
+Digital_Clock_Project/
 │
-├── basic/
-│   ├── index.html
-│   ├── styles.css
-│   ├── script.js
-│   └── README.md
+├── index.html
+├── styles.css
+├── script.js
 │
-├── landing-page/
-│   ├── index.html
-│   ├── styles.css
-│   ├── script.js
-│   ├── images/
-│   └── README.md
+├── images/
+│   └── minecraft-dappled-forest.jpg
 │
-├── multimedia/
-│   ├── index.html
-│   ├── styles.css
-│   ├── script.js
-│   ├── images/
-│   ├── audio/
-│   ├── videos/
-│   └── README.md
+├── fonts/
+│   └── minecraft-font.ttf
+│
+├── audio/
+│   └── minecraft-autumn-music-and-ambience.mp3
 │
 └── README.md
 ```
 
 ---
 
-## 🚀 Features
+## 🚀⚡ How to Run
 
-* Ready-to-use project templates
-* Beginner-friendly file structures
-* Reusable starter code
-* Organized project layouts
-* Support for multimedia projects
-* Easy customization
-* Consistent folder organization
+### 📥 Step 1
 
----
+Download or clone the project folder.
 
-## 🛠️ Technologies Used
+### 📂 Step 2
 
-* HTML5
-* CSS3
-* JavaScript (ES6)
+Ensure all files remain in their correct folders:
 
----
+- 🖼️ images/
+- 🔤 fonts/
+- 🎵 audio/
 
-## 📡 Project Purpose
+### 🌐 Step 3
 
-This repository is designed to:
+Open:
 
-1. Provide reusable web development templates
-2. Demonstrate proper project organization
-3. Help developers start projects faster
-4. Encourage consistent file structures
-5. Support multimedia-based projects
-6. Improve front-end development workflow
+```text
+index.html
+```
+
+in your web browser.
+
+### 🎉 Step 4
+
+Enjoy the live digital clock ⌚ and relaxing Minecraft ambience 🎵🌲.
 
 ---
 
-## ▶️ How to Run the Project
+## 📚🧠 Concepts Demonstrated
 
-1. Download or clone the repository:
-
-   ```bash
-   git clone <your-repository-url>
-   ```
-
-2. Open the repository folder.
-
-3. Choose a template folder.
-
-4. Open the desired template.
-
-5. Launch the project by opening:
-
-   ```text
-   index.html
-   ```
-
-6. Begin customizing the template for your project.
+- 🌐 HTML Structure
+- 🎨 CSS Styling
+- 🔤 Custom Fonts
+- 🖼️ Background Images
+- 🎵 Audio Integration
+- 📅 JavaScript Date Object
+- ⚙️ DOM Manipulation
+- 🔄 Real-Time Updates
+- 💻 Front-End Web Development
 
 ---
 
-## 📂 Project Contents
+## 👨‍💻🚀 Author
 
-* `basic/` — Basic HTML, CSS, and JavaScript template
-* `landing-page/` — Landing page template with image support
-* `multimedia/` — Template with images, audio, and video folders
-* `README.md` — Repository documentation
+**Ryan Pereira**
+
+🎓 Computer Science Student
+
+💻 Aspiring Software Developer
 
 ---
 
-## 📅 Project Info
+## 📖🔍 Sources
 
-**Author:** Ryan Pereira
-**Created:** 05/31/2026
-**Last Modified:** 05/31/2026
+- 📚 HTML Documentation
+- 📚 CSS Documentation
+- 📚 JavaScript Documentation
+- 💬 Stack Overflow
+- 🤖 GitHub Copilot
+- 🧠 ChatGPT
 
+---
 
