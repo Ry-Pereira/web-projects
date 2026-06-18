@@ -10,23 +10,22 @@
 
 
 var darkMode = false;
-var date = new Date(0,0,0,0,0,0,0);
-var hours = date.getHours();
-var minutes = date.getMinutes();
-var seconds = date.getSeconds();
-var milliseconds = date.getMilliseconds();
+var hours = 0;
+var minutes = 0;
+var seconds = 0;
+var milliseconds = 0;
 var timeoutId;
 
 
 
 function updateTime(){
-    console.log(hours.toString().padStart(2,"0"),minutes.toString().padStart(2,"0"),seconds.toString().padStart(2,"0"),milliseconds.toString().padStart(2,"0"));
+    let currentTime = `${hours.toString().padStart(2,"0")}:${minutes.toString().padStart(2,"0")}:${seconds.toString().padStart(2,"0")}:${milliseconds.toString().padStart(2,"0")}`;
+    document.getElementById("time_display").textContent = currentTime;
     if(milliseconds == 60){
         milliseconds=0;
         seconds+=1;
     }
     if(seconds  == 60){
-        clearTimeout(timeoutId);
         seconds = 0;
         minutes +=1;
     }
@@ -34,15 +33,11 @@ function updateTime(){
         minutes = 0;
         hours +=1;
     }
-    if(hours  == 60){
-        clearTimeout(timeoutId);
-        
-    }
-    else
     milliseconds +=1;
-
     timeoutId = setTimeout(updateTime, 10);
 }
+
+
 
 
 
@@ -56,7 +51,6 @@ document.getElementById("dark_mode_toggle_button").onclick = function(){
         document.body.style.backgroundImage = "url('images/darktime-forest.jpg')";
         document.body.style.backgroundSize = "cover";
         document.body.style.backgroundRepeat = "no-repeat";
-
         darkMode = true;
     }
     else{
@@ -68,7 +62,6 @@ document.getElementById("dark_mode_toggle_button").onclick = function(){
         document.body.style.backgroundImage = "url('images/daytime-forest.jpg')";
         document.body.style.backgroundSize = "cover";
         document.body.style.backgroundRepeat = "no-repeat";
-      
         darkMode = false;
 
     }
@@ -83,4 +76,23 @@ document.getElementById("start_button").onclick = function(){
 }
 
 
+document.getElementById("pause_button").onclick = function(){
+    clearTimeout(timeoutId);
+}
 
+document.getElementById("restart_button").onclick = function(){
+    clearTimeout(timeoutId);
+    document.getElementById("laps_container").innerHTML =` `;
+    hourse = 0;
+    minutes = 0;
+    seconds = 0;
+    milliseconds = 0;
+    let currentTime = `${hours.toString().padStart(2,"0")}:${minutes.toString().padStart(2,"0")}:${seconds.toString().padStart(2,"0")}:${milliseconds.toString().padStart(2,"0")}`;
+    document.getElementById("time_display").textContent = currentTime;
+}
+
+
+document.getElementById("lap_button").onclick = function(){
+    let lapTime = `${hours.toString().padStart(2,"0")}:${minutes.toString().padStart(2,"0")}:${seconds.toString().padStart(2,"0")}:${milliseconds.toString().padStart(2,"0")}`;
+    document.getElementById("laps_container").innerHTML += `<p>Lap: ${lapTime}</p>`;
+}
