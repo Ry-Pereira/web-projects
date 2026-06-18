@@ -14,13 +14,46 @@
 
 
 *{
+ 
+    font-family: Helvetica,Arial;
     text-align: center;
 
 }
 
+.buttons{
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-left:2px;
+    margin-right:2px;
+    transition: background-color 0.3s ease;
+}
 
+#time_display{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top:230px
+}
+
+#laps_container{
+    width: auto;
+    height:auto;
+    background-color: rgb(168, 168, 149);
+    margin-top:40px;
+    margin-left:auto;
+    margin-right:auto;
+    overflow:scroll;
+}
+
+p{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 1%;
+ 
+}
 
 body{
+    color:yellow;
     background-image: url("images/daytime-forest.jpg");
     background-size: cover;
     background-repeat: no-repeat;
