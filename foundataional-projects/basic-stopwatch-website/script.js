@@ -15,6 +15,7 @@ var minutes = 0;
 var seconds = 0;
 var milliseconds = 0;
 var timeoutId;
+var lapNumber = 0;
 
 
 
@@ -44,20 +45,26 @@ function updateTime(){
 document.getElementById("dark_mode_toggle_button").onclick = function(){
     if(darkMode == false){
         document.body.style.color = "blue";
+        document.getElementById("time_display").style.color = "blue";
         document.getElementById("start_button").style.color = "blue";
+        document.getElementById("pause_button").style.color = "blue";
         document.getElementById("lap_button").style.color = "blue";
         document.getElementById("restart_button").style.color = "blue";
         document.getElementById("dark_mode_toggle_button").style.color = "blue";
-        document.body.style.backgroundImage = "url('images/darktime-forest.jpg')";
+        document.getElementById("lap_detail").style.color = "blue";
+        document.body.style.backgroundImage = "url('images/dark-woods.jpg')";
         document.body.style.backgroundSize = "cover";
         document.body.style.backgroundRepeat = "no-repeat";
         darkMode = true;
     }
     else{
         document.body.style.color = "yellow";
+        document.getElementById("time_display").style.color = "yellow";
         document.getElementById("start_button").style.color = "yellow";
+        document.getElementById("pause_button").style.color = "yellow";
         document.getElementById("lap_button").style.color = "yellow";
         document.getElementById("restart_button").style.color = "yellow";
+        document.getElementById("lap_detail").style.color = "yellow";
         document.getElementById("dark_mode_toggle_button").style.color = "yellow";
         document.body.style.backgroundImage = "url('images/daytime-forest.jpg')";
         document.body.style.backgroundSize = "cover";
@@ -82,6 +89,7 @@ document.getElementById("pause_button").onclick = function(){
 
 document.getElementById("restart_button").onclick = function(){
     clearTimeout(timeoutId);
+    lapNumber = 0;
     document.getElementById("laps_container").innerHTML =` `;
     hourse = 0;
     minutes = 0;
@@ -93,6 +101,7 @@ document.getElementById("restart_button").onclick = function(){
 
 
 document.getElementById("lap_button").onclick = function(){
+    lapNumber++;
     let lapTime = `${hours.toString().padStart(2,"0")}:${minutes.toString().padStart(2,"0")}:${seconds.toString().padStart(2,"0")}:${milliseconds.toString().padStart(2,"0")}`;
-    document.getElementById("laps_container").innerHTML += `<p>Lap: ${lapTime}</p>`;
+    document.getElementById("laps_container").innerHTML += `<p id="lap_detail">LAP ${lapNumber}: ${lapTime}</p>`;
 }
