@@ -23,6 +23,8 @@
 .buttons{
     font-size: 30px;
     font-weight: bolder;
+    color:rgb(255, 255, 0);
+    background-color: rgba(168, 168, 149, 0.545);
     border-radius: 10px;
     margin-left:2px;
     margin-right:2px;
@@ -30,18 +32,22 @@
 }
 
 #time_display{
+    color:yellow;
     font-size: 60px;
     font-weight: bold;
     margin-top:230px
 }
 
 #laps_container{
-    width: auto;
-    height:auto;
-    background-color: rgb(168, 168, 149);
+    width: 550px;
+    height:250px;
+    color:rgba(255, 255, 0, 0.847);
+    background-color: rgba(118, 118, 114, 0.545);
     margin-top:40px;
     margin-left:auto;
     margin-right:auto;
+
+    border-radius: 10px;
     overflow:scroll;
 }
 
@@ -53,8 +59,10 @@ p{
 }
 
 body{
-    color:yellow;
+    
     background-image: url("images/daytime-forest.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
+
