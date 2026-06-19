@@ -13,6 +13,7 @@
 @font-face{
     font-family:'ElmsSans';
     src: url("fonts/ElmsSans-VariableFont_wght.ttf") format("truetype");
+    font-weight:bolder;
 
 }
 
@@ -30,8 +31,8 @@
     color:rgb(255, 255, 0);
     background-color: rgba(168, 168, 149, 0.545);
     border-radius: 10px;
-    margin-left:2.5px;
-    margin-right:2.5px;
+    margin-left:6px;
+    margin-right:6px;
     transition: background-color 0.3s ease;
 }
 
