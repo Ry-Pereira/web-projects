@@ -1,88 +1,161 @@
-/* Name: */
-/* Project Name: */
-/* Module Name: */
-/* Module Purpose: */
-/* Description: */
-/* Collaborators: */
-/* Sources: */
-/* Date: */
-/* Last Modified: */
+/* Name: Ryan Pereira */
+/* Project Name: StopWatch */
+/* Module Name: styles.css */
+/* Module Purpose: Provides the styling, layout, and visual design for the stopwatch website. */
+/* Description: Creating a stopwatch website. The user can be able to start the stopwatch, incrementing the time. They can be able to pause the stopwatch for it to stop incremeenting in time. They can be able to lap the stopwatch, or record the time hit, and be able to view it. They can can restart the timer backt to starting time. They can also switch modes for dark and bright mode. */
+/* Collaborators: None */
+/* Sources: Github Copilot, Stack Overflow, ChatGPT, CSS documentation. */
+/* Date: 6/15/2026 */
+/* Last Modified: 6/19/2026 */
 
 
-
+/* Imports the custom ElmsSans font from the fonts folder */
 @font-face{
     font-family:'ElmsSans';
+
+    /* Specifies the location and format of the font file */
     src: url("fonts/ElmsSans-VariableFont_wght.ttf") format("truetype");
+
+    /* Sets the font weight */
     font-weight:bolder;
-
 }
 
 
+/* Applies styles to all elements on the page */
 *{
- 
-    font-family: "ElmsSans";
-    text-align: center;
-    transition: color 0.7s ease;
 
+    /* Uses the custom font throughout the website */
+    font-family: "ElmsSans";
+
+    /* Centers text horizontally */
+    text-align: center;
+
+    /* Smoothly transitions text color changes */
+    transition: color 0.7s ease;
 }
 
 
-
+/* Styles all stopwatch control buttons */
 .buttons{
+
+    /* Sets button text size */
     font-size:30px;
+
+    /* Adds horizontal padding inside the buttons */
     padding-left: 5px;
     padding-right: 5px;
+
+    /* Sets button height */
     height:50px;
+
+    /* Sets button width */
     width:170px;
+
+    /* Makes button text bold */
     font-weight: bolder;
+
+    /* Sets the text color */
     color:rgb(255, 255, 0);
+
+    /* Gives the buttons a semi-transparent background */
     background-color: rgba(168, 168, 149, 0.545);
+
+    /* Rounds the button corners */
     border-radius: 10px;
+
+    /* Centers buttons horizontally */
     margin-left:auto;
     margin-right:auto;
+
+    /* Smooth transition for background color changes */
     transition: background-color 0.3s ease;
+
+    /* Smooth transition for text color changes */
     transition: color 0.7s ease;
 }
 
+
+/* Changes button appearance when hovered over */
 .buttons:hover{
+
+    /* Makes the background slightly lighter */
     background-color: rgba(186, 186, 180, 0.84);
-
 }
 
+
+/* Styles the stopwatch time display */
 #time_display{
+
+    /* Sets the text color */
     color:yellow;
+
+    /* Makes the time large and easy to read */
     font-size: 70px;
+
+    /* Makes the time bold */
     font-weight: bold;
-    margin-top:230px
+
+    /* Pushes the display down from the top of the page */
+    margin-top:230px;
 }
 
 
-
+/* Styles the container that stores lap times */
 #laps_container{
+
+    /* Sets the lap text size */
     font-size: 25px;
+
+    /* Makes lap text bold */
     font-weight: bolder;
+
+    /* Sets container width */
     width: 550px;
+
+    /* Sets container height */
     height:250px;
+
+    /* Sets lap text color */
     color:rgba(255, 255, 0, 0.847);
+
+    /* Gives the container a semi-transparent background */
     background-color: rgba(118, 118, 114, 0.545);
+
+    /* Adds space above the container */
     margin-top:40px;
+
+    /* Centers the container horizontally */
     margin-left:auto;
     margin-right:auto;
+
+    /* Rounds the corners */
     border-radius: 10px;
+
+    /* Allows scrolling when lap entries exceed the container height */
     overflow:scroll;
+
+    /* Smooth transition for background color changes */
     transition: background-color 0.3s ease;
 }
 
-#laps_container:hover{
-    background-color: rgba(186, 186, 180, 0.84);
 
+/* Changes lap container appearance when hovered over */
+#laps_container:hover{
+
+    /* Makes the background slightly lighter */
+    background-color: rgba(186, 186, 180, 0.84);
 }
 
 
-
+/* Styles the webpage background */
 body{
+
+    /* Sets the default daytime forest background image */
     background-image: url("images/daytime-forest.jpg");
+
+    /* Makes the image cover the entire page */
     background-size: cover;
+
+    /* Prevents the image from repeating */
     background-repeat: no-repeat;
 }
-

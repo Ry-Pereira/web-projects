@@ -1,125 +1,73 @@
-// Name: 
-// Project Name: 
-// Module Name: 
-// Module Purpose: 
-// Description: 
-// Collaborators: 
-// Sources: 
-// Date: 
-// Last Modified: 
+// Name: Ryan Pereira
+// Project Name: StopWatch 
+// Module Name: script.js
+// Module Purpose: Controls the stopwatch operations, lap recording, time display updates, and dark/bright mode features.
+// Description: Creating a stopwatch website. The user can be able to start the stopwatch, incrementing the time. They can be able to pause the stopwatch for it to stop incremeenting in time. They can be able to lap the stopwatch, or record the time hit, and be able to view it. They can can restart the timer backt to starting time. They can also switch modes for dark and bright mode.
+// Collaborators: None
+// Sources: Github Copilot, Stack Overflow, ChatGPT, CSS documentation.
+// Date: 6/15/2026 
+// Last Modified: 6/19/2026 
 
 
+// Tracks whether dark mode is currently enabled
 var darkMode = false;
+
+// Stores the stopwatch time values
 var hours = 0;
 var minutes = 0;
 var seconds = 0;
 var milliseconds = 0;
+
+// Stores the timeout ID used for stopping the stopwatch
 var timeoutId;
+
+// Tracks the current lap number
 var lapNumber = 0;
 
-
+// Stores the current state of the stopwatch
 var isPaused = false;
 var isRestarted = false;
 var isStarted = false;
 
 
-
+// Updates the stopwatch time display and increments time
 function updateTime(){
-    let currentTime = `${hours.toString().padStart(2,"0")} : ${minutes.toString().padStart(2,"0")} : ${seconds.toString().padStart(2,"0")} : ${milliseconds.toString().padStart(2,"0")}`;
+
+    // Formats the current stopwatch time with leading zeros
+    let currentTime =
+        `${hours.toString().padStart(2,"0")} :
+        ${minutes.toString().padStart(2,"0")} :
+        ${seconds.toString().padStart(2,"0")} :
+        ${milliseconds.toString().padStart(2,"0")}`;
+
+    // Displays the formatted time on the page
     document.getElementById("time_display").textContent = currentTime;
+
+    // Converts milliseconds into seconds
     if(milliseconds == 60){
-        milliseconds=0;
-        seconds+=1;
+        milliseconds = 0;
+        seconds += 1;
     }
-    if(seconds  == 60){
+
+    // Converts seconds into minutes
+    if(seconds == 60){
         seconds = 0;
-        minutes +=1;
+        minutes += 1;
     }
-    if(minutes  == 60){
+
+    // Converts minutes into hours
+    if(minutes == 60){
         minutes = 0;
-        hours +=1;
+        hours += 1;
     }
-    milliseconds +=1;
+
+    // Increments milliseconds
+    milliseconds += 1;
+
+    // Calls updateTime again after 10 milliseconds
     timeoutId = setTimeout(updateTime, 10);
 }
 
 
-
-
-
+// Handles dark mode and bright mode switching
 document.getElementById("dark_mode_toggle_button").onclick = function(){
-    if(darkMode == false){
-        document.body.style.color = "blue";
-        document.getElementById("time_display").style.color = "blue";
-        document.getElementById("start_button").style.color = "blue";
-        document.getElementById("pause_button").style.color = "blue";
-        document.getElementById("lap_button").style.color = "blue";
-        document.getElementById("restart_button").style.color = "blue";
-        document.getElementById("dark_mode_toggle_button").style.color = "blue";
-        document.getElementById("dark_mode_toggle_button").textContent = "BRIGHTEN";
-        document.body.style.backgroundImage = "url('images/dark-woods.jpg')";
-        document.body.style.backgroundSize = "cover";
-        document.body.style.backgroundRepeat = "no-repeat";
-        darkMode = true;
-        document.getElementById("laps_container").style.color = "blue";
-    }
-    else{
-        document.body.style.color = "yellow";
-        document.getElementById("time_display").style.color = "yellow";
-        document.getElementById("start_button").style.color = "yellow";
-        document.getElementById("pause_button").style.color = "yellow";
-        document.getElementById("lap_button").style.color = "yellow";
-        document.getElementById("restart_button").style.color = "yellow";
-        document.getElementById("dark_mode_toggle_button").style.color = "yellow";
-        document.getElementById("dark_mode_toggle_button").textContent = "DARKEN";
-        document.body.style.backgroundImage = "url('images/daytime-forest.jpg')";
-        document.body.style.backgroundSize = "cover";
-        document.body.style.backgroundRepeat = "no-repeat";
-        darkMode = false;
-        document.getElementById("laps_container").style.color = "yellow";
-
-    }
-
-}
-
-
-
-
-document.getElementById("start_button").onclick = function(){
-    isStarted = true;
-    isPaused = false;
-    isRestarted = false;
-    updateTime();
-}
-
-
-document.getElementById("pause_button").onclick = function(){
-    isPaused = true;
-    clearTimeout(timeoutId);
-}
-
-document.getElementById("restart_button").onclick = function(){
-    clearTimeout(timeoutId);
-    isRestarted = true;
-    isPaused = false;
-    lapNumber = 0;
-    document.getElementById("laps_container").innerHTML =` `;
-    hourse = 0;
-    minutes = 0;
-    seconds = 0;
-    milliseconds = 0;
-    let currentTime = `${hours.toString().padStart(2,"0")}:${minutes.toString().padStart(2,"0")}:${seconds.toString().padStart(2,"0")}:${milliseconds.toString().padStart(2,"0")}`;
-    document.getElementById("time_display").textContent = currentTime;
-}
-
-
-document.getElementById("lap_button").onclick = function(){
-    if(isPaused === true || isRestarted === true || isStarted === false){
-        window.alert("You Cannot While Timer is paused, restarted, or haven't even started.")
-    }
-    else{
-        lapNumber++;
-        let lapTime = `${hours.toString().padStart(2,"0")}:${minutes.toString().padStart(2,"0")}:${seconds.toString().padStart(2,"0")}:${milliseconds.toString().padStart(2,"0")}`;
-        document.getElementById("laps_container").innerHTML += `<p>LAP ${lapNumber}: ${lapTime}</p>`;
-    }
-}

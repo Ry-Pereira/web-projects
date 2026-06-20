@@ -1,12 +1,12 @@
-<!-- Name: -->
-<!-- Project Name: -->
-<!-- Module Name: -->
-<!-- Module Purpose: -->
-<!-- Description: -->
-<!-- Collaborators: -->
-<!-- Sources: -->
-<!-- Date: -->
-<!-- Last Modified: -->
+<!-- Name: Ryan Pereira -->
+<!-- Project Name: StopWatch -->
+<!-- Module Name: index.html -->
+<!-- Module Purpose: Providing the skeletal structure of the website -->
+<!-- Description: Creating a stopwatch website. The user can be able to start the stopwatch, incrementing the time. They can be able to pause the stopwatch for it to stop incremeenting in time. They can be able to lap the stopwatch, or record the time hit, and be able to view it. They can can restart the timer backt to starting time. They can also switch modes for dark and bright mode -->
+<!-- Collaborators: None -->
+<!-- Sources: Github Copilot, Stack Overflow, ChatGPT, CSS documentation -->
+<!-- Date: 6/15/2026 -->
+<!-- Last Modified: 6/19/2026 -->
 
 
 
@@ -29,19 +29,19 @@
     <body>
         <!-- Main heading of the page -->
         <h1 id="time_display">00:00:00:00</h1>
-     
+        <!-- Button for starting the stopwatch when pressed -->
         <button id="start_button" type="button" class="buttons">START</button>
+        <!-- Button for pausing the stopwatch when pressed -->
         <button id="pause_button" type="button" class="buttons">PAUSE</button>
+        <!-- Button for saving a lap time when pressed -->
         <button id="lap_button" type="button" class="buttons">LAP</button>
+        <!-- Button for restarting the stopwatch when pressed -->
         <button id="restart_button" type="button" class="buttons">RESTART</button>
+        <!-- Button for restarting the stopwatch when pressed -->
         <button id="dark_mode_toggle_button" type="button" class="buttons">DARKEN</button>
-        
+        <!-- Div container to contain all time laps-->
         <div id="laps_container">
-
         </div>
-        
-
-        
         <!-- Links the external JavaScript file -->
         <script src="script.js"></script>
     </body>
