@@ -11,63 +11,85 @@
 
 *{
     text-align: center;
+    color: rgba(255, 255, 255, 0.903);
+    font-family:Helvetica, sans-serif
 }
 
 #song_name_container{
-    border:3px solid black;
-    border-radius:5px;
+    font-size: 25px;
+    background-color: rgba(144, 134, 236, 0.729);
+    border: 2px rgb(124, 72, 169);
+    width:340px;
+    height:35px;
+    border-radius:10px;
+    margin-bottom:20px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: auto;
 
 }
 #mp3_player_container{
-    background-color: aquamarine;
+    background-color: rgba(144, 134, 236, 0.494);
     width:400px;
-    height:700px;
+    height:600px;
     margin-top: 50px;
     margin-bottom:auto;
     margin-left:auto;
     margin-right:auto;
     border:3px solid black;
-    border-radius:5px;
+    border-radius:10px;
+    box-shadow: 12px 12px 15px rgba(32, 31, 33, 0.704),-12px 12px 15px rgba(32, 31, 33, 0.704);
+
 }
 
 #image_container{
-    background-color: red;
-    width:380px;
+    width:350px;
     height:300px;
     margin-bottom:auto;
     margin-left:auto;
     margin-right:auto;
     border:3px solid black;
-    border-radius:5px;
+    border-radius:10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
 }
 
 #button_container{
-    background-color: red;
-    width:300px;
-    height:200px;
+    color: rgba(255, 255, 255, 0.903);
+    background-color: rgba(144, 134, 236, 0.597);
+    border: 2px rgb(124, 72, 169);
+    width:250px;
+    height:160px;
     margin-top:20px;
     margin-bottom:auto;
     margin-left:auto;
     margin-right:auto;
-    border:3px solid black;
-    padding:5px;
-
+    border-radius:10px;
+    padding-top:15px;
+    
+    
 }
 
 button{
     font-size: 50px;
+    background-color: rgba(144, 134, 236, 0.729);
+    border: solid 2px rgba(124, 72, 169, 0.266);
+    border-radius:10px;
+   
+    
 }
 
 
-#play_button{
-    background-color: rgb(39, 3, 3);
-    width:100px;
-    height:100px;
-    margin-top:50px;
-    margin-bottom:auto;
-    margin-left:auto;
-    margin-right:auto;
-    border-radius:150px;
+
+
+
+
+body{
+    background-image: url("images/pretty-landscape.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
 }
