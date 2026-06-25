@@ -26,7 +26,15 @@
     margin-left:auto;
     margin-right:auto;
     padding: auto;
+    transition: color .7s ease;
+    transition: background-color 0.7s ease;
+    transition: box-shadow 0.7s ease;
+}
 
+#song_name_container:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(144, 134, 236, 0.83);
+    box-shadow: 6px 6px 5px rgba(32, 31, 33, 0.883),-6px 6px 5px rgba(32, 31, 33, 0.883)
 }
 #mp3_player_container{
     background-color: rgba(144, 134, 236, 0.494);
@@ -38,8 +46,14 @@
     margin-right:auto;
     border:3px solid black;
     border-radius:10px;
-    box-shadow: 12px 12px 15px rgba(32, 31, 33, 0.704),-12px 12px 15px rgba(32, 31, 33, 0.704);
+    box-shadow: 12px 12px 15px rgba(32, 31, 23, 0.404),-12px 12px 15px rgba(32, 31, 23, 0.404);
+    transition: background-color 0.7s ease;
+    transition: box-shadow 0.7s ease;
+}
 
+#mp3_player_container:hover{
+    background-color: rgba(144, 134, 236, 0.684);
+    box-shadow: 12px 12px 20px rgba(32, 31, 33, 0.883),-12px 12px 20px rgba(32, 31, 33, 0.883)
 }
 
 #image_container{
@@ -53,13 +67,26 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
 
+
+
+#image{
+    width:350px;
+    height:300px;
+    background-color: rgba(203, 175, 229, 0.391);
+    border-radius:10px;
+    transition: background-color 0.7s ease;
+}
+
+
+#image:hover{
+    background-color: rgba(203, 175, 229, 0.171);
 }
 
 #button_container{
     color: rgba(255, 255, 255, 0.903);
     background-color: rgba(144, 134, 236, 0.597);
-    border: 2px rgb(124, 72, 169);
     width:250px;
     height:160px;
     margin-top:20px;
@@ -68,8 +95,13 @@
     margin-right:auto;
     border-radius:10px;
     padding-top:15px;
-    
-    
+    transition: background-color 0.7s ease;
+    transition: box-shadow 0.7s ease;
+}
+
+#button_container:hover{
+    background-color: rgba(144, 134, 236, 0.83);
+    box-shadow: 12px 12px 5px rgba(32, 31, 33, 0.883),-12px 12px 5px rgba(32, 31, 33, 0.883)
 }
 
 button{
@@ -77,11 +109,14 @@ button{
     background-color: rgba(144, 134, 236, 0.729);
     border: solid 2px rgba(124, 72, 169, 0.266);
     border-radius:10px;
-   
-    
+    transition: background-color 0.7s ease;
+    transition: box-shadow 0.7s ease;
 }
 
-
+button:hover{
+    background-color: rgba(144, 134, 236, 0.83);
+    box-shadow: 6px 6px 5px rgba(32, 31, 33, 0.883),-6px 6px 5px rgba(32, 31, 33, 0.883)
+}
 
 
 
