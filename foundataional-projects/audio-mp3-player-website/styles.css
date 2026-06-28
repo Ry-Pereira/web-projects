@@ -1,130 +1,156 @@
-/* Name: */
-/* Project Name: */
-/* Module Name: */
-/* Module Purpose: */
-/* Description: */
-/* Collaborators: */
-/* Sources: */
-/* Date: */
-/* Last Modified: */
+/* Name: Ryan Pereira*/
+/* Project Name: Audio-MP3-Player*/
+/* Module Name: styles.css*/
+/* Module Purpose: Styles the MP3 player user interface and animations. */
+/* Description: Defines the layout, colors, sizing, hover effects, and background image for the MP3 player. */
+/* Collaborators: None */
+/* Sources: Github Copilot, Stack Overflow, ChatGPT, CSS documentation */
+/* Date: 6/28/2026 */
+/* Last Modified: 6/28/2026 */
 
+
+/* ---------- Global Styles ---------- */
 
 *{
     text-align: center;
     color: rgba(255, 255, 255, 0.903);
-    font-family:Helvetica, sans-serif
-}
-
-#song_name_container{
-    font-size: 25px;
-    background-color: rgba(144, 134, 236, 0.729);
-    border: 2px rgb(124, 72, 169);
-    width:340px;
-    height:35px;
-    border-radius:10px;
-    margin-bottom:20px;
-    margin-left:auto;
-    margin-right:auto;
-    padding: auto;
-    transition: color .7s ease;
-    transition: background-color 0.7s ease;
-    transition: box-shadow 0.7s ease;
-}
-
-#song_name_container:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgba(144, 134, 236, 0.83);
-    box-shadow: 6px 6px 5px rgba(32, 31, 33, 0.883),-6px 6px 5px rgba(32, 31, 33, 0.883)
-}
-#mp3_player_container{
-    background-color: rgba(144, 134, 236, 0.494);
-    width:400px;
-    height:600px;
-    margin-top: 50px;
-    margin-bottom:auto;
-    margin-left:auto;
-    margin-right:auto;
-    border:3px solid black;
-    border-radius:10px;
-    box-shadow: 12px 12px 15px rgba(32, 31, 23, 0.404),-12px 12px 15px rgba(32, 31, 23, 0.404);
-    transition: background-color 0.7s ease;
-    transition: box-shadow 0.7s ease;
-}
-
-#mp3_player_container:hover{
-    background-color: rgba(144, 134, 236, 0.684);
-    box-shadow: 12px 12px 20px rgba(32, 31, 33, 0.883),-12px 12px 20px rgba(32, 31, 33, 0.883)
-}
-
-#image_container{
-    width:350px;
-    height:300px;
-    margin-bottom:auto;
-    margin-left:auto;
-    margin-right:auto;
-    border:3px solid black;
-    border-radius:10px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    font-family: Helvetica, sans-serif;
 }
 
 
-
-#image{
-    width:350px;
-    height:300px;
-    background-color: rgba(203, 175, 229, 0.391);
-    border-radius:10px;
-    transition: background-color 0.7s ease;
-}
-
-
-#image:hover{
-    background-color: rgba(203, 175, 229, 0.171);
-}
-
-#button_container{
-    color: rgba(255, 255, 255, 0.903);
-    background-color: rgba(144, 134, 236, 0.597);
-    width:250px;
-    height:160px;
-    margin-top:20px;
-    margin-bottom:auto;
-    margin-left:auto;
-    margin-right:auto;
-    border-radius:10px;
-    padding-top:15px;
-    transition: background-color 0.7s ease;
-    transition: box-shadow 0.7s ease;
-}
-
-#button_container:hover{
-    background-color: rgba(144, 134, 236, 0.83);
-    box-shadow: 12px 12px 5px rgba(32, 31, 33, 0.883),-12px 12px 5px rgba(32, 31, 33, 0.883)
-}
-
-button{
-    font-size: 50px;
-    background-color: rgba(144, 134, 236, 0.729);
-    border: solid 2px rgba(124, 72, 169, 0.266);
-    border-radius:10px;
-    transition: background-color 0.7s ease;
-    transition: box-shadow 0.7s ease;
-}
-
-button:hover{
-    background-color: rgba(144, 134, 236, 0.83);
-    box-shadow: 6px 6px 5px rgba(32, 31, 33, 0.883),-6px 6px 5px rgba(32, 31, 33, 0.883)
-}
-
-
-
+/* ---------- Body ---------- */
 
 body{
     background-image: url("images/pretty-landscape.gif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
 
+
+/* ---------- MP3-Player Container ---------- */
+
+#mp3_player_container{
+    background-color: rgba(144, 134, 236, 0.494);
+    width: 400px;
+    height: 600px;
+    margin-top: 50px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 12px 12px 15px rgba(32, 31, 23, 0.404),
+                -12px 12px 15px rgba(32, 31, 23, 0.404);
+    transition: background-color 0.7s ease,
+                box-shadow 0.7s ease;
+}
+
+/* Changes the player appearance when hovered */
+#mp3_player_container:hover{
+    background-color: rgba(144, 134, 236, 0.684);
+    box-shadow: 12px 12px 20px rgba(32, 31, 33, 0.883),
+                -12px 12px 20px rgba(32, 31, 33, 0.883);
+}
+
+
+/* ---------- Song-Title ---------- */
+
+#song_name_container{
+    font-size: 25px;
+    background-color: rgba(144, 134, 236, 0.729);
+    border: 2px rgb(124, 72, 169);
+    width: 340px;
+    height: 35px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    transition: color 0.7s ease,
+                background-color 0.7s ease,
+                box-shadow 0.7s ease;
+}
+
+/* Changes the song-title appearance when hovered */
+#song_name_container:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(144, 134, 236, 0.83);
+    box-shadow: 6px 6px 5px rgba(32, 31, 33, 0.883),
+               -6px 6px 5px rgba(32, 31, 33, 0.883);
+}
+
+
+/* ---------- Album-Image ---------- */
+
+/* Container that holds the album artwork */
+#image_container{
+    width: 350px;
+    height: 300px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Overlay displayed on top of the album artwork */
+#image{
+    width: 350px;
+    height: 300px;
+    background-color: rgba(203, 175, 229, 0.391);
+    border-radius: 10px;
+    transition: background-color 0.7s ease;
+}
+
+/* Changes the album-image overlay when hovered */
+#image:hover{
+    background-color: rgba(203, 175, 229, 0.171);
+}
+
+
+/* ---------- Button-Container ---------- */
+
+#button_container{
+    background-color: rgba(144, 134, 236, 0.597);
+    width: 250px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding-top: 15px;
+    transition: background-color 0.7s ease,
+                box-shadow 0.7s ease;
+}
+
+/* Changes the button-container appearance when hovered */
+#button_container:hover{
+    background-color: rgba(144, 134, 236, 0.83);
+    box-shadow: 12px 12px 5px rgba(32, 31, 33, 0.883),
+               -12px 12px 5px rgba(32, 31, 33, 0.883);
+}
+
+
+/* ---------- Buttons ---------- */
+
+/* Styles all buttons in the MP3 player */
+button{
+    font-size: 50px;
+    background-color: rgba(144, 134, 236, 0.729);
+    border: solid 2px rgba(124, 72, 169, 0.266);
+    border-radius: 10px;
+    transition: background-color 0.7s ease,
+                box-shadow 0.7s ease;
+}
+
+/* Changes the button appearance when hovered */
+button:hover{
+    background-color: rgba(144, 134, 236, 0.83);
+    box-shadow: 6px 6px 5px rgba(32, 31, 33, 0.883),
+               -6px 6px 5px rgba(32, 31, 33, 0.883);
 }
