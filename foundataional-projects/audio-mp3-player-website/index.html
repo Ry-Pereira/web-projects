@@ -1,50 +1,55 @@
-<!-- Name: -->
-<!-- Project Name: -->
-<!-- Module Name: -->
-<!-- Module Purpose: -->
-<!-- Description: -->
-<!-- Collaborators: -->
-<!-- Sources: -->
-<!-- Date: -->
-<!-- Last Modified: -->
-
-
+<!-- Name: Ryan Pereira-->
+<!-- Project Name: Audio-MP3-Player-->
+<!-- Module Name: index.html-->
+<!-- Module Purpose: Creates the structure for the MP3 player user interface. -->
+<!-- Description: Displays the song title, album artwork area, playback controls, and links the CSS and JavaScript files. -->
+<!-- Collaborators: None -->
+<!-- Sources: Github Copilot, Stack Overflow, ChatGPT, CSS documentation -->
+<!-- Date: 6/28/2026 -->
+<!-- Last Modified: 6/28/2026 -->
 
 <!-- Declares the document type as HTML5 -->
 <!DOCTYPE html>
-<!-- Root HTML element with English language specified -->
+<!-- Root HTML element with the language set to English -->
 <html lang="en">
     <!-- Contains metadata and document settings -->
     <head>
-        <!-- Sets the character encoding to UTF-8 -->
+        <!-- Specifies the character encoding -->
         <meta charset="UTF-8">
-        <!-- Makes the page responsive on different screen sizes -->
+        <!-- Makes the webpage responsive on different screen sizes -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Links the external CSS stylesheet -->
+        <!-- Links the external stylesheet -->
         <link rel="stylesheet" href="styles.css">
-        <!-- Sets the title displayed in the browser tab -->
+        <!-- Displays the title in the browser tab -->
         <title>MP3 Player</title>
     </head>
-    <!-- Contains all visible content on the webpage -->
+    <!-- Contains all visible webpage content -->
     <body>
-        <!-- Main heading of the page -->
-         
-         <audio id="audio-player"></audio>
+        <!-- Audio-player element used for music playback -->
+        <audio id="audio-player"></audio>
+        <!-- Main MP3-player container -->
         <div id="mp3_player_container">
+            <!-- Song-name heading -->
             <h1 id="song_name_container">Song Name</h1>
+            <!-- Album-image container -->
             <div id="image_container">
+                <!-- Album-image display area -->
                 <div id="image">
-
                 </div>
             </div>
+            <!-- Playback-button container -->
             <div id="button_container">
-
+                <!-- Volume-down button -->
                 <button color="white" type="button" id="minus_button">-</button>
+                <!-- Volume-up button -->
                 <button type="button" id="plus_button">+</button>
+                <!-- Line break separating controls -->
                 <br>
-                
+                <!-- Previous-song button -->
                 <button type="button" id="previous_button">⏮</button>
+                <!-- Play-or-pause button -->
                 <button type="button" id="play_or_pause_button">⏯</button>
+                <!-- Next-song button -->
                 <button type="button" id="next_button">⏭</button>
             </div>
         </div>
