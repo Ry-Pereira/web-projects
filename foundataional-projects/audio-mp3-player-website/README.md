@@ -1,122 +1,119 @@
-# 🌐🎨⚡ HTML, CSS & JavaScript Project Templates
+# 🎵 Audio MP3 Player
 
-## 📌 Overview
+## 📌 Project Information
 
-This repository contains a collection of starter templates for HTML, CSS, and JavaScript projects. These templates provide a structured foundation for building web applications and websites while helping developers organize their projects efficiently.
-
-Users can:
-
-* Start new web development projects quickly
-* Reuse pre-built project structures
-* Organize media files efficiently
-* Learn proper project organization
-* Customize templates for different project types
-* Practice HTML, CSS, and JavaScript development
+- **👤 Name:** Ryan Pereira
+- **📁 Project Name:** Audio MP3 Player
+- **💻 Language(s):** HTML, CSS, JavaScript
+- **📅 Date:** June 28, 2026
 
 ---
 
-## 🧱 Project Structure
+## 📝 Description
 
-```text
-html-css-javascript-project-templates/
-│
-├── basic/
-│   ├── index.html
-│   ├── styles.css
-│   ├── script.js
-│   └── README.md
-│
-├── landing-page/
-│   ├── index.html
-│   ├── styles.css
-│   ├── script.js
-│   ├── images/
-│   └── README.md
-│
-├── multimedia/
-│   ├── index.html
-│   ├── styles.css
-│   ├── script.js
-│   ├── images/
-│   ├── audio/
-│   ├── videos/
-│   └── README.md
-│
-└── README.md
-```
+The **Audio MP3 Player** is a web application that allows users to listen to a small playlist of songs through an easy-to-use interface. Users can play or pause music, switch between songs, adjust the volume, and view the current song title and album artwork.
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
-* Ready-to-use project templates
-* Beginner-friendly file structures
-* Reusable starter code
-* Organized project layouts
-* Support for multimedia projects
-* Easy customization
-* Consistent folder organization
+- ▶️ Play music
+- ⏸️ Pause music
+- ⏮️ Previous song
+- ⏭️ Next song
+- 🔊 Increase volume
+- 🔉 Decrease volume
+- 🎼 Display current song title
+- 🖼️ Display album artwork
+- 🎨 Smooth hover animations
+- 🌄 Animated background
 
 ---
 
 ## 🛠️ Technologies Used
 
-* HTML5
-* CSS3
-* JavaScript (ES6)
+- 🌐 HTML5
+- 🎨 CSS3
+- ⚡ JavaScript (ES6)
 
 ---
 
-## 📡 Project Purpose
+## 📂 Project Structure
 
-This repository is designed to:
-
-1. Provide reusable web development templates
-2. Demonstrate proper project organization
-3. Help developers start projects faster
-4. Encourage consistent file structures
-5. Support multimedia-based projects
-6. Improve front-end development workflow
-
----
-
-## ▶️ How to Run the Project
-
-1. Download or clone the repository:
-
-   ```bash
-   git clone <your-repository-url>
-   ```
-
-2. Open the repository folder.
-
-3. Choose a template folder.
-
-4. Open the desired template.
-
-5. Launch the project by opening:
-
-   ```text
-   index.html
-   ```
-
-6. Begin customizing the template for your project.
+```text
+Audio-MP3-Player/
+│
+├── 📄 index.html
+├── 🎨 styles.css
+├── ⚡ script.js
+│
+├── 🎵 audio/
+│   ├── lofi-girl-snowman-song.mp3
+│   ├── purple-cat-midnight-snack-song.mp3
+│   └── slipfunc-walking-home-song.mp3
+│
+├── 🖼️ images/
+│   ├── lofi-girl-snowman-song-cover.jpg
+│   ├── purple-cat-midnight-snack-song-cover.jpg
+│   ├── slipfunc-walking-home-song-cover.jpg
+│   └── pretty-landscape.gif
+│
+└── 📘 README.md
+```
 
 ---
 
-## 📂 Project Contents
+## 🚀 How to Run
 
-* `basic/` — Basic HTML, CSS, and JavaScript template
-* `landing-page/` — Landing page template with image support
-* `multimedia/` — Template with images, audio, and video folders
-* `README.md` — Repository documentation
+1. 📥 Download or clone the project.
+2. 📂 Keep all files and folders in their original locations.
+3. 🌐 Open `index.html` in any modern web browser.
+4. 🎵 Use the buttons to control music playback.
 
 ---
 
-## 📅 Project Info
+## 🎮 Controls
 
-**Author:** Ryan Pereira
-**Created:** 05/31/2026
-**Last Modified:** 05/31/2026
+| Button | Function |
+|---------|----------|
+| ⏯ | Play or pause the current song |
+| ⏮ | Go to the previous song |
+| ⏭ | Go to the next song |
+| ➕ | Increase the volume |
+| ➖ | Decrease the volume |
 
+---
 
+## 🌟 Future Improvements
+
+- 📊 Progress bar
+- ⏱️ Song timer
+- 🔀 Shuffle playlist
+- 🔁 Repeat mode
+- 📜 Playlist display
+- 🔇 Mute button
+- ⌨️ Keyboard shortcuts
+- 🖱️ Draggable player window
+
+---
+
+## 👥 Collaborators
+
+- None
+
+---
+
+## 📚 Sources
+
+- 📖 HTML Documentation
+- 📖 CSS Documentation
+- 📖 JavaScript Documentation
+- 🤖 GitHub Copilot
+- 💬 Stack Overflow
+- ✨ ChatGPT
+
+---
+
+## 📄 License
+
+This project was created for **educational purposes**.
